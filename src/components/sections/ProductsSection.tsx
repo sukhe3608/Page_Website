@@ -11,8 +11,8 @@ export function ProductsSection() {
       <div className="container-x flex flex-col gap-14">
         <SectionHeading
           eyebrow="Our products"
-          title={<span id="products-heading">Products your teams will actually use</span>}
-          description="Built from our own client work, our product suite automates operations, surfaces answers and keeps teams secure."
+          title={<span id="products-heading">Safety systems that perform when it matters</span>}
+          description="Globally certified equipment from authorized brands — engineered to your site and backed by installation and AMC support."
         />
         <RevealGroup className="flex flex-col gap-8" stagger={0.1}>
           {products.map((product, i) => (

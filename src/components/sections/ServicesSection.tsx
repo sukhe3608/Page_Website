@@ -11,8 +11,8 @@ export function ServicesSection() {
       <div className="container-x flex flex-col gap-14">
         <SectionHeading
           eyebrow="What we do"
-          title={<span id="services-heading">Full-stack capabilities, one accountable team</span>}
-          description="Eight core practices that cover the entire product lifecycle — from first idea to global scale."
+          title={<span id="services-heading">Every system under one accountable team</span>}
+          description="From fire protection and electronic security to automation and networking — we design, supply, install and maintain it all."
         />
         <RevealGroup className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4" stagger={0.07}>
           {services.map((service) => (

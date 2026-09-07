@@ -10,15 +10,15 @@ export default function ScheduleConsultation() {
     <PageTransition>
       <Seo
         title="Schedule a Consultation"
-        description="Book a free 30-minute discovery call with our team — we'll discuss your goals and recommend the right approach."
+        description="Book a free 30-minute discovery call with our team — we'll discuss your site, requirements and the right way forward."
         path="/schedule-consultation"
         schema={[breadcrumbSchema([{ name: "Schedule a Consultation" }])]}
       />
 
       <PageHero
         eyebrow="Consultation"
-        title="Book a discovery call"
-        description="Thirty minutes, no slide deck, no pressure. We'll listen, ask smart questions and tell you what we'd do."
+        title="Book a 30-minute call"
+        description="Thirty minutes, no pressure. We'll listen, understand your safety requirements and tell you honestly what we'd recommend."
         crumbs={[{ label: "Schedule a Consultation" }]}
       />
 

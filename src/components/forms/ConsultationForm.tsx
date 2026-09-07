@@ -7,10 +7,10 @@ import { Honeypot, simulateSubmit } from "@/components/forms/submit";
 
 const topicOptions = [
   { value: "", label: "Select a topic…" },
-  { value: "new-project", label: "New project or product" },
-  { value: "existing", label: "Improve an existing product" },
-  { value: "ai", label: "AI / automation opportunity" },
-  { value: "cloud", label: "Cloud or DevOps transformation" },
+  { value: "fire", label: "Fire alarm & suppression" },
+  { value: "security", label: "CCTV, access control & intruder alarm" },
+  { value: "automation", label: "Building / ELV automation" },
+  { value: "amc", label: "Maintenance (AMC) or upgrades" },
   { value: "other", label: "Something else" },
 ];
 
@@ -26,7 +26,7 @@ export function ConsultationForm({ className }: { className?: string }) {
   const { values, errors, status, setValue, onBlur, submit } = useForm([
     { name: "name", label: "Full name", required: true },
     { name: "email", label: "Work email", required: true, validate: rules.email },
-    { name: "company", label: "Company" },
+    { name: "company", label: "Organization / site" },
     { name: "topic", label: "What would you like to discuss?", required: true },
     { name: "date", label: "Preferred date" },
     { name: "time", label: "Preferred time" },
@@ -77,7 +77,7 @@ export function ConsultationForm({ className }: { className?: string }) {
             Something went wrong. Please try again.
           </p>
         )}
-        <p className="text-[13px] text-muted">A 30-minute call with a senior consultant. No sales pressure.</p>
+        <p className="text-[13px] text-muted">A 30-minute call with a senior engineer. No sales pressure.</p>
       </div>
     </form>
   );

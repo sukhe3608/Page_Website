@@ -42,7 +42,7 @@ export default function Terms() {
             title: "Intellectual property",
             body: (
               <>
-                <p>All content on this website and all software we build for or deliver to you — including design, code, documentation and branding — is owned by {site.name} or its licensors, except where ownership is transferred by a separate written agreement.</p>
+                <p>All content, designs and documentation on this website — and anything we deliver to you, including engineering drawings, system designs and branded materials — is owned by {site.name} or its licensors, except where ownership is transferred by a separate written agreement.</p>
                 <p>You may not copy, modify, distribute or reverse-engineer our products except as expressly permitted.</p>
               </>
             ),

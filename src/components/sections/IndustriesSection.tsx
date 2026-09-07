@@ -11,8 +11,8 @@ export function IndustriesSection() {
       <div className="container-x flex flex-col gap-14">
         <SectionHeading
           eyebrow="Industries"
-          title={<span id="industries-heading">Deep context, not just code</span>}
-          description="We build inside the constraints and language of your industry — regulation, scale and operational reality included."
+          title={<span id="industries-heading">Deep expertise, not just equipment</span>}
+          description="We engineer within the constraints and standards of your sector — compliance, scale and operational reality included."
         />
         <RevealGroup className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3" stagger={0.06}>
           {industries.map((industry) => (

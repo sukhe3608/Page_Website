@@ -141,8 +141,8 @@ export default function SolutionDetail() {
       </div>
 
       <FinalCta
-        title={`Ready to adopt ${solution.name}?`}
-        description="We'll show you how this solution maps to your goals in a free discovery call."
+        title={`Ready to deploy ${solution.name}?`}
+        description="We'll show you how this solution maps to your site in a free inspection and consultation."
       />
     </PageTransition>
   );

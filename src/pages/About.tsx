@@ -13,21 +13,22 @@ import { TestimonialsSection } from "@/components/sections/TestimonialsSection";
 import { FinalCta } from "@/components/sections/FinalCta";
 import { Reveal, RevealGroup, RevealItem } from "@/components/animation/Reveal";
 import { Counter } from "@/components/animation/Counter";
+import { teamMembers } from "@/data/projects";
 
 export default function About() {
   return (
     <PageTransition>
       <Seo
         title="About Us"
-        description="Learn about NovaCore Technologies — who we are, how we work, and why teams trust us with their most important technology initiatives."
+        description="Learn about SLN Automation India Pvt. Ltd. — a certified fire safety, security and automation partner trusted by aviation, defence, healthcare and global brands since 2016."
         path="/about"
         schema={[breadcrumbSchema([{ name: "About" }])]}
       />
 
       <PageHero
         eyebrow="About us"
-        title="Technology partners for ambitious teams"
-        description="We're an engineering-led team of strategists, designers and developers who believe great software should feel effortless — for the people who build it and the people who use it."
+        title="India's trusted safety & automation partner"
+        description="We're a certified team of engineers, designers and safety specialists who believe critical sites deserve systems that are reliable, compliant and effortless — for the people who run them and the people they protect."
         crumbs={[{ label: "About" }]}
       />
 
@@ -35,21 +36,21 @@ export default function About() {
         <div className="container-x grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
           <Reveal>
             <div className="flex flex-col gap-6">
-              <SectionHeading align="left" eyebrow="Our story" title={<span id="about-story-heading">Built by engineers, for builders</span>} />
+              <SectionHeading align="left" eyebrow="Our story" title={<span id="about-story-heading">Built by engineers, for safety</span>} />
               <p className="text-pretty text-[16.5px] leading-[1.85] text-muted">
-                {site.name} started with a simple frustration: too many companies settle for software that works on
-                paper but fails in practice. We set out to build a different kind of partner — one that treats your
-                business goals and your users' needs as the specification.
+                {site.name} started with a simple frustration: too many sites settle for systems that look good on
+                paper but fail in practice. We set out to build a different kind of partner — one that treats your
+                safety goals and your operations as the specification.
               </p>
               <p className="text-pretty text-[16.5px] leading-[1.85] text-muted">
-                Today we pair strategists, product designers and senior engineers on every engagement, with a
-                documented process that keeps budgets honest and timelines predictable. Our placeholder metrics below
-                will be replaced with real numbers before launch.
+                Today our certified engineers design, supply, install and maintain fire alarm, CCTV, access control,
+                crowd control and automation systems across the country — for Airports, DRDO Labs, Hospitals, Hotels
+                and Global Brands.
               </p>
               <div className="grid grid-cols-3 gap-4">
                 {[
-                  { value: 120, suffix: "+", label: "team members" },
-                  { value: 250, suffix: "+", label: "projects shipped" },
+                  { value: 100, suffix: "+", label: "Top brands served" },
+                  { value: 1000, suffix: "+", label: "projects delivered" },
                   { value: 98, suffix: "%", label: "clients returning" },
                 ].map((stat) => (
                   <div key={stat.label} className="rounded-xl border border-line bg-white p-4 text-center shadow-soft">
@@ -70,13 +71,13 @@ export default function About() {
 
       <section className="section-pad bg-bg/60" aria-labelledby="about-values-heading">
         <div className="container-x flex flex-col gap-10">
-          <SectionHeading align="center" eyebrow="What we believe" title={<span id="about-values-heading">Principles that guide every project</span>} />
+          <SectionHeading align="center" eyebrow="What we believe" title={<span id="about-values-heading">Principles that guide every installation</span>} />
           <RevealGroup className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4" stagger={0.08}>
             {[
-              { icon: Target, title: "Outcomes over output", description: "We measure success in business results — not lines of code or shipped tickets." },
-              { icon: Compass, title: "Clarity over cleverness", description: "Simple, maintainable solutions beat impressive architecture that no one can run." },
-              { icon: HeartHandshake, title: "Partnership over projects", description: "We stay accountable after launch, because software is never really finished." },
-              { icon: Star, title: "Craft over shortcuts", description: "Design details, performance budgets and accessibility are non-negotiables." },
+              { icon: Target, title: "Outcomes over output", description: "We measure success in lives protected and uptime — not in boxes shipped or tickets closed." },
+              { icon: Compass, title: "Clarity over cleverness", description: "Simple, maintainable systems beat impressive architecture that no one can run in an emergency." },
+              { icon: HeartHandshake, title: "Partnership over projects", description: "We stay accountable after commissioning, because safety systems are never really finished." },
+              { icon: Star, title: "Craft over shortcuts", description: "Certified installs, genuine parts and code-compliant design are non-negotiables." },
             ].map((value) => (
               <RevealItem key={value.title}>
                 <div className="group h-full rounded-2xl border border-line bg-white p-6 shadow-soft transition-all duration-300 hover:-translate-y-1 hover:shadow-card">
@@ -104,12 +105,7 @@ export default function About() {
             </Button>
           </div>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {[
-              { name: "Amani Okafor", role: "Chief Executive Officer", initials: "AO", department: "Executive" },
-              { name: "Lena Hartmann", role: "Chief Technology Officer", initials: "LH", department: "Executive" },
-              { name: "Rajesh Menon", role: "Head of Product", initials: "RM", department: "Product" },
-              { name: "Sofia Rossi", role: "Principal Engineer", initials: "SR", department: "Engineering" },
-            ].map((member) => (
+            {teamMembers.slice(0, 4).map((member) => (
               <div key={member.name} className="rounded-2xl border border-line bg-white p-6 text-center shadow-soft transition-all duration-300 hover:-translate-y-1 hover:shadow-card">
                 <span className="mx-auto mb-3 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-primary to-primary-dark text-lg font-bold text-white">
                   {member.initials}

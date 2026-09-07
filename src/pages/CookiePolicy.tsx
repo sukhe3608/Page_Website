@@ -11,7 +11,7 @@ export default function CookiePolicy() {
     <PageTransition>
       <Seo
         title="Cookie Policy"
-        description="How NovaCore uses cookies on its website and how you can control them."
+        description="How SLN Automation India Pvt. Ltd. uses cookies on its website and how you can control them."
         path="/cookie-policy"
         schema={[breadcrumbSchema([{ name: "Cookie Policy" }])]}
       />

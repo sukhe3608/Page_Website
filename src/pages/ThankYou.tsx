@@ -14,7 +14,7 @@ export default function ThankYou() {
       <PageHero
         eyebrow="Thank you"
         title="We've got your message"
-        description="Your inquiry is in a real human's inbox, not a void. Here's what happens next."
+        description="Your inquiry is with our engineering team, not a void. Here's what happens next."
         crumbs={[{ label: "Thank You" }]}
       />
 
@@ -34,7 +34,7 @@ export default function ThankYou() {
                 {[
                   { step: "1", text: "We review your details and route them to the right specialist — typically within a few hours." },
                   { step: "2", text: "You receive a personal reply (not an autoresponder) with a few focused questions or a proposed next step." },
-                  { step: "3", text: "We schedule a call or follow up with written recommendations — your terms, your pace." },
+                  { step: "3", text: "We schedule a free site inspection or follow up with written recommendations — your terms, your pace." },
                 ].map((item) => (
                   <div key={item.step} className="flex items-start gap-4 rounded-2xl border border-line bg-white p-5 shadow-soft">
                     <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary text-[13px] font-bold text-white">

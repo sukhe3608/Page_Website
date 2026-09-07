@@ -64,7 +64,7 @@ export function ConsultationForm({ className }: { className?: string }) {
         </Field>
         <div className="sm:col-span-2">
           <Field label="Anything we should know beforehand?" htmlFor="c-notes" hint="Optional" error={errors.notes}>
-            <Textarea id="c-notes" value={values.notes} onChange={(e) => setValue("notes", e.target.value)} onBlur={() => onBlur("notes")} error={!!errors.notes} placeholder="Goals, links, timelines…" />
+            <Textarea id="c-notes" value={values.notes} onChange={(e) => setValue("notes", e.target.value)} onBlur={() => onBlur("notes")} error={!!errors.notes} placeholder="Site details, system types, timelines…" />
           </Field>
         </div>
       </div>

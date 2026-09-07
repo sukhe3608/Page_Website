@@ -9,15 +9,15 @@ import { Magnetic } from "@/components/ui/Magnetic";
 import { LineDraw } from "@/components/animation/LineDraw";
 
 const HEADLINE: { text: string; highlight?: boolean }[] = [
-  { text: "We" },
-  { text: "Build" },
-  { text: "Digital", highlight: true },
-  { text: "Solutions", highlight: true },
-  { text: "That" },
-  { text: "Drive" },
-  { text: "Real" },
-  { text: "Business" },
-  { text: "Growth" },
+  { text: "Protect" },
+  { text: "What" },
+  { text: "Matters", highlight: true },
+  { text: "Most" },
+  { text: "With" },
+  { text: "Smart" },
+  { text: "Safety", highlight: true },
+  { text: "&" },
+  { text: "Automation" },
 ];
 
 const wordVariants = {
@@ -119,7 +119,7 @@ export function Hero() {
           >
             <span className="eyebrow">
               <Sparkles className="h-3.5 w-3.5" aria-hidden="true" />
-              Enterprise Software · Cloud · AI
+              Fire Safety · Security · Automation
             </span>
           </motion.div>
 
@@ -146,8 +146,8 @@ export function Hero() {
             transition={{ duration: 0.55, ease: motionTokens.ease.standard, delay: 1.05 }}
             className="max-w-xl text-pretty text-lg leading-relaxed text-muted"
           >
-            NovaCore is a technology company engineering enterprise software, cloud platforms and AI
-            solutions for organizations that take growth seriously.
+            SLN Automation is a fire safety, security and automation company protecting Airports,
+            DRDO Labs, Hospitals, Hotels and Global Brands across India since 2016.
           </motion.p>
 
           <motion.div
@@ -172,18 +172,18 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 1.4 }}
             className="mt-2 flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-muted"
           >
-            <span className="flex items-center gap-1.5">
-              <ShieldCheck className="h-4 w-4 text-success" aria-hidden="true" />
-              Security &amp; compliance first
-            </span>
-            <span className="flex items-center gap-1.5">
-              <TrendingUp className="h-4 w-4 text-primary" aria-hidden="true" />
-              250+ projects delivered
-            </span>
-            <span className="flex items-center gap-1.5">
-              <Sparkles className="h-4 w-4 text-warning" aria-hidden="true" />
-              Dedicated senior teams
-            </span>
+<span className="flex items-center gap-1.5">
+                  <ShieldCheck className="h-4 w-4 text-success" aria-hidden="true" />
+                  FSAI member
+                </span>
+                <span className="flex items-center gap-1.5">
+                  <TrendingUp className="h-4 w-4 text-primary" aria-hidden="true" />
+                  1000+ projects delivered
+                </span>
+                <span className="flex items-center gap-1.5">
+                  <Sparkles className="h-4 w-4 text-warning" aria-hidden="true" />
+                  Authorized distributor
+                </span>
           </motion.div>
         </div>
 
@@ -222,15 +222,15 @@ export function Hero() {
                   <span className="h-2.5 w-2.5 rounded-full bg-warning/70" />
                   <span className="h-2.5 w-2.5 rounded-full bg-success/70" />
                 </div>
-                <span className="text-xs font-semibold text-muted">Performance Overview</span>
+                <span className="text-xs font-semibold text-muted">Protection Overview</span>
               </div>
 
               <div className="mb-4 flex items-end justify-between">
                 <div>
-                  <p className="text-3xl font-bold tracking-tight text-navy">+42%</p>
-                  <p className="text-xs font-medium text-muted">Revenue growth</p>
+                  <p className="text-3xl font-bold tracking-tight text-navy">98%</p>
+                  <p className="text-xs font-medium text-muted">Fault-free uptime</p>
                 </div>
-                <span className="rounded-full bg-success/10 px-2.5 py-1 text-xs font-bold text-green-800">▲ 12.4% MoM</span>
+                <span className="rounded-full bg-success/10 px-2.5 py-1 text-xs font-bold text-green-800">▲ 12.4% YoY</span>
               </div>
 
               <div className="relative flex h-36 items-end gap-2.5">
@@ -272,9 +272,9 @@ export function Hero() {
 
               <div className="mt-4 grid grid-cols-3 gap-2">
                 {[
-                  { label: "Uptime", value: "99.9%" },
-                  { label: "Response", value: "180ms" },
-                  { label: "Users", value: "12.4k" },
+                  { label: "Sites", value: "320+" },
+                  { label: "Response", value: "60s" },
+                  { label: "Devices", value: "28k" },
                 ].map((m) => (
                   <div key={m.label} className="rounded-xl bg-bg px-3 py-2.5">
                     <p className="text-sm font-bold text-navy">{m.value}</p>
@@ -288,21 +288,21 @@ export function Hero() {
               className="-left-3 top-10 sm:-left-8"
               icon={<TrendingUp className="h-4 w-4" aria-hidden="true" />}
               value="+42%"
-              label="Revenue growth"
+              label="Risk reduced"
               delay={1.1}
             />
             <FloatingKpi
               className="-right-2 bottom-24 sm:-right-6"
               icon={<ShieldCheck className="h-4 w-4" aria-hidden="true" />}
-              value="99.9%"
-              label="Uptime SLA"
+              value="24×7"
+              label="Monitoring"
               delay={1.3}
             />
             <FloatingKpi
               className="bottom-0 left-1/2 -translate-x-1/2 sm:bottom-6"
               icon={<Sparkles className="h-4 w-4" aria-hidden="true" />}
-              value="3x"
-              label="Faster delivery"
+              value="10+"
+              label="Years of excellence"
               delay={1.5}
             />
           </div>

@@ -11,7 +11,7 @@ export function ProcessSection() {
         <SectionHeading
           eyebrow="Our process"
           title={<span id="process-heading">A delivery rhythm you can count on</span>}
-          description="Seven clear phases — from discovery to ongoing support — with working software and honest reporting at every step."
+          description="Six clear phases — from consultation to AMC support — with certified engineering and honest reporting at every step."
         />
 
         <div className="relative">

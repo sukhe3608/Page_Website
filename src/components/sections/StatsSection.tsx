@@ -17,7 +17,7 @@ export function StatsSection() {
           <RevealItem key={stat.label}>
             <div className="flex flex-col items-center gap-2">
               <span className="text-[clamp(2rem,5vw,3.25rem)] font-bold tracking-tight text-white">
-                <Counter value={stat.value} prefix={stat.prefix} suffix={stat.suffix} />
+                <Counter value={stat.value} prefix={stat.prefix} suffix={stat.suffix} decimals={stat.value % 1 !== 0 ? 1 : 0} />
               </span>
               <span className="max-w-40 text-sm font-medium text-slate-400">{stat.label}</span>
             </div>

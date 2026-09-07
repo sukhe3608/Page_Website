@@ -87,7 +87,7 @@ export function ContactForm({ className }: { className?: string }) {
             onChange={(e) => setValue("phone", e.target.value)}
             onBlur={() => onBlur("phone")}
             error={!!errors.phone}
-            placeholder="+1 (555) 000-0000"
+            placeholder="+91 90000 00000"
             autoComplete="tel"
           />
         </Field>
@@ -122,7 +122,7 @@ export function ContactForm({ className }: { className?: string }) {
               onChange={(e) => setValue("message", e.target.value)}
               onBlur={() => onBlur("message")}
               error={!!errors.message}
-              placeholder="Tell us about your goals, timeline and any constraints…"
+              placeholder="Tell us about your site, requirements and any constraints…"
               required
             />
           </Field>

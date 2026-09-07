@@ -10,15 +10,15 @@ export default function GetQuote() {
     <PageTransition>
       <Seo
         title="Get a Quote"
-        description="Request a free, no-obligation quote for your project — tell us what you need and we'll come back with a starting figure and a plan."
+        description="Request a free site inspection and quote for your safety, security or automation requirements — no obligation."
         path="/get-a-quote"
         schema={[breadcrumbSchema([{ name: "Get a Quote" }])]}
       />
 
       <PageHero
         eyebrow="Get a quote"
-        title="Your project, priced honestly"
-        description="Five short steps. No obligation, no pressure — just a realistic starting point and a clear next step."
+        title="Your site, quoted honestly"
+        description="Five short steps. No obligation, no pressure — just a realistic proposal and a clear next step from our engineers."
         crumbs={[{ label: "Get a Quote" }]}
       />
 

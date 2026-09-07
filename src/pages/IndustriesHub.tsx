@@ -53,7 +53,7 @@ export default function IndustriesHub() {
         </div>
       </section>
 
-      <FinalCta title="Why companies choose industry experts" description="Faster onboarding, fewer compliance surprises and roadmaps that make sense to your board." />
+      <FinalCta title="Why sectors choose safety specialists" description="Certified designs, fewer compliance surprises and systems that make sense to your operations and auditors." />
     </PageTransition>
   );
 }

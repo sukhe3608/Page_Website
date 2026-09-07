@@ -6,7 +6,7 @@ export function TrustedBy() {
     <section className="border-y border-line bg-white py-10" aria-label="Trusted by partners and clients">
       <p className="sr-only">Trusted by {partners.length} partner companies</p>
       <p className="mb-7 text-center text-[13px] font-semibold uppercase tracking-[0.18em] text-muted">
-        Trusted by teams across industries
+        Authorized distribution for global brands
       </p>
       <div className="marquee relative overflow-hidden">
         <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-24 bg-gradient-to-r from-white to-transparent" />

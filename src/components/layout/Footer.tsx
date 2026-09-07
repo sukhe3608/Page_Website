@@ -1,19 +1,19 @@
 import { Link } from "react-router";
-import { ArrowUpRight, ChevronRight } from "lucide-react";
+import { ArrowUpRight, ChevronRight, Mail, MapPin, Phone } from "lucide-react";
 import { site } from "@/config/site";
 import { services } from "@/data/services";
-import { solutions } from "@/data/solutions";
+import { products } from "@/data/products";
 import { Logo } from "@/components/layout/Logo";
 import { Reveal, RevealGroup, RevealItem } from "@/components/animation/Reveal";
 
 const linkGroups = [
   {
     title: "Services",
-    links: services.map((s) => ({ label: s.name, to: `/services/${s.slug}` })),
+    links: services.slice(0, 8).map((s) => ({ label: s.name, to: `/services/${s.slug}` })),
   },
   {
-    title: "Solutions",
-    links: solutions.map((s) => ({ label: s.name, to: `/solutions/${s.slug}` })),
+    title: "Products",
+    links: products.map((p) => ({ label: p.name, to: `/products/${p.slug}` })),
   },
   {
     title: "Company",
@@ -27,7 +27,7 @@ const linkGroups = [
     ],
   },
   {
-    title: "Resources",
+    title: "Quick Links",
     links: [
       { label: "Insights", to: "/insights" },
       { label: "Case Studies", to: "/case-studies" },
@@ -50,8 +50,27 @@ export function Footer() {
           <div className="flex flex-col gap-5">
             <Logo dark />
             <p className="max-w-sm text-[15px] leading-relaxed text-slate-400">
-              {site.description} Demo site — all company information is placeholder until replaced with real data.
+              {site.name} — protecting Airports, DRDO Labs, Hospitals, Hotels and Global Brands across India with
+              certified fire safety, security and automation systems since 2016.
             </p>
+            <div className="flex flex-col gap-2.5 text-[14px] text-slate-400">
+              <a href={`tel:${site.phone.replace(/\s/g, "")}`} className="flex items-center gap-2.5 transition-colors hover:text-white">
+                <Phone className="h-4 w-4 text-primary" aria-hidden="true" />
+                {site.phone}
+              </a>
+              <a href={`tel:${site.salesPhone.replace(/\s/g, "")}`} className="flex items-center gap-2.5 transition-colors hover:text-white">
+                <Phone className="h-4 w-4 text-primary" aria-hidden="true" />
+                Toll Free: {site.salesPhone}
+              </a>
+              <a href={`mailto:${site.email}`} className="flex items-center gap-2.5 transition-colors hover:text-white">
+                <Mail className="h-4 w-4 text-primary" aria-hidden="true" />
+                {site.email}
+              </a>
+              <span className="flex items-start gap-2.5">
+                <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-primary" aria-hidden="true" />
+                {site.address}
+              </span>
+            </div>
             <div className="flex gap-2">
               {site.socials.map((s) => (
                 <a

@@ -14,7 +14,7 @@ export default function Contact() {
     <PageTransition>
       <Seo
         title="Contact"
-        description="Get in touch with NovaCore — tell us about your project and we'll reply within one business day."
+        description="Get in touch with SLN Automation India Pvt. Ltd. — tell us about your site and we'll reply with a free inspection and proposal."
         path="/contact"
         schema={[breadcrumbSchema([{ name: "Contact" }])]}
       />
@@ -22,7 +22,7 @@ export default function Contact() {
       <PageHero
         eyebrow="Contact"
         title="Let's talk"
-        description="Tell us where you are and where you want to go. We'll reply with honest thoughts, not a sales pitch."
+        description="Tell us where you are and what you need to protect. We'll reply with honest thoughts and a free site assessment, not a sales pitch."
         crumbs={[{ label: "Contact" }]}
       />
 
@@ -65,10 +65,10 @@ export default function Contact() {
             <Reveal delay={0.1}>
               <div className="rounded-2xl border border-line bg-soft/50 p-6">
                 <p className="text-[14px] font-semibold text-navy">Rather start with a quote?</p>
-                <p className="mt-1.5 text-[13.5px] leading-relaxed text-muted">Our guided quote form takes about five minutes and gives you a starting figure.</p>
+                <p className="mt-1.5 text-[13.5px] leading-relaxed text-muted">Request a free site inspection — our engineers will assess your premises and respond with a transparent proposal.</p>
                 <div className="mt-4">
                   <Button to="/get-a-quote" variant="outline" icon={<ArrowRight className="h-4 w-4" aria-hidden="true" />}>
-                    Get a Quote
+                    Get Free Site Inspection
                   </Button>
                 </div>
               </div>

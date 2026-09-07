@@ -21,8 +21,8 @@ export function SolutionsSection() {
       <div className="container-x flex flex-col gap-12">
         <SectionHeading
           eyebrow="Solutions"
-          title={<span id="solutions-heading">Purpose-built solutions for real business challenges</span>}
-          description="We combine product thinking, engineering depth and industry context to solve specific problems — not generic templates."
+          title={<span id="solutions-heading">Purpose-built solutions for real safety challenges</span>}
+          description="We combine certified engineering and industry context to solve specific problems — not generic templates."
         />
 
         <div

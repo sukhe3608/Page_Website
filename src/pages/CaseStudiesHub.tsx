@@ -22,7 +22,7 @@ export default function CaseStudiesHub() {
     <PageTransition>
       <Seo
         title="Case Studies"
-        description="Real results from real engagements — see how we've helped businesses modernize platforms, cut costs and grow."
+        description="Real results from real installations — see how we've helped Airports, defence labs, hospitals and hotels improve safety and security."
         path="/case-studies"
         schema={[breadcrumbSchema([{ name: "Case Studies" }])]}
       />
@@ -30,12 +30,12 @@ export default function CaseStudiesHub() {
       <PageHero
         eyebrow="Case studies"
         title="Proof, not promises"
-        description="A selection of engagements with measurable outcomes. Every story follows the same arc: the challenge, our approach, and the results."
+        description="A selection of installations with measurable outcomes. Every story follows the same arc: the challenge, our approach, and the results."
         crumbs={[{ label: "Case Studies" }]}
       >
         <div className="flex flex-wrap items-center gap-3 pt-2">
           <Button to="/get-a-quote" icon={<ArrowRight className="h-4 w-4" aria-hidden="true" />}>
-            Start Your Project
+            Get Free Site Inspection
           </Button>
         </div>
       </PageHero>

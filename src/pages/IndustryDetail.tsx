@@ -141,8 +141,8 @@ export default function IndustryDetail() {
       </div>
 
       <FinalCta
-        title={`Let's talk about your ${industry.name.toLowerCase()} goals`}
-        description="Share your objectives and we'll outline a practical technology roadmap — no obligation."
+        title={`Let's talk about your ${industry.name.toLowerCase()} safety goals`}
+        description="Share your site and objectives and we'll outline a practical solution — with a free site inspection, no obligation."
       />
     </PageTransition>
   );

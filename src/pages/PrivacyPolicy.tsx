@@ -11,7 +11,7 @@ export default function PrivacyPolicy() {
     <PageTransition>
       <Seo
         title="Privacy Policy"
-        description="How NovaCore collects, uses and protects your personal data."
+        description="How SLN Automation India Pvt. Ltd. collects, uses and protects your personal data."
         path="/privacy-policy"
         schema={[breadcrumbSchema([{ name: "Privacy Policy" }])]}
       />

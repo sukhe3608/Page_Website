@@ -16,7 +16,7 @@ export function InsightsSection() {
             align="left"
             eyebrow="Insights"
             title={<span id="insights-heading">Ideas worth reading</span>}
-            description="Practical thinking on technology, design and business — written by the people doing the work."
+            description="Practical guides on fire safety, surveillance and access control — written by the engineers doing the work."
           />
           <Reveal direction="up" delay={0.1}>
             <Link

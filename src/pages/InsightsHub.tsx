@@ -1,4 +1,5 @@
 import { useMemo, useState } from "react";
+import { Link } from "react-router";
 import PageTransition from "@/components/animation/PageTransition";
 import Seo from "@/components/seo/Seo";
 import { posts } from "@/data/posts";
@@ -8,7 +9,7 @@ import { BlogCard } from "@/components/cards/BlogCard";
 import { FinalCta } from "@/components/sections/FinalCta";
 import { Reveal, RevealGroup, RevealItem } from "@/components/animation/Reveal";
 
-const categories = ["All", "Technology", "Business", "Design", "AI", "Cloud"];
+const categories = ["All", "Fire Safety", "Security", "CCTV & Surveillance", "Access Control", "Automation"];
 
 export default function InsightsHub() {
   const [active, setActive] = useState("All");
@@ -19,15 +20,15 @@ export default function InsightsHub() {
     <PageTransition>
       <Seo
         title="Insights"
-        description="Practical articles on technology strategy, AI, cloud, design systems and building software that lasts."
+        description="Practical guides on fire safety, CCTV, access control, solar fencing and security systems that last."
         path="/insights"
         schema={[breadcrumbSchema([{ name: "Insights" }])]}
       />
 
       <PageHero
         eyebrow="Insights"
-        title="Ideas worth stealing"
-        description="Field notes from our engineers, designers and strategists — no fluff, just what works."
+        title="Field notes worth stealing"
+        description="Practical guides from our engineers and safety specialists — no fluff, just what works."
         crumbs={[{ label: "Insights" }]}
       />
 
@@ -68,9 +69,9 @@ export default function InsightsHub() {
                   <p className="text-[13px] font-medium text-muted">
                     {featured.author} · {featured.date} · {featured.readTime}
                   </p>
-                  <a href={`/insights/${featured.slug}`} className="link-underline self-start text-[14px] font-semibold text-primary">
+                  <Link to={`/insights/${featured.slug}`} className="link-underline self-start text-[14px] font-semibold text-primary">
                     Read the article
-                  </a>
+                  </Link>
                 </div>
               </article>
             </Reveal>
@@ -87,7 +88,7 @@ export default function InsightsHub() {
           <div className="rounded-2xl border border-line bg-soft/50 p-6 text-center">
             <p className="text-[14.5px] text-navy/80">
               Want these insights in your inbox?{" "}
-              <a href="mailto:insights@novacore.example.com" className="font-semibold text-primary hover:text-primary-dark">
+              <a href="mailto:info@slninfosys.com" className="font-semibold text-primary hover:text-primary-dark">
                 Subscribe to our newsletter
               </a>
               .

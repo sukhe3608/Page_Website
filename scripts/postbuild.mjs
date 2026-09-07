@@ -22,6 +22,8 @@ function walk(dir, out = []) {
   return out;
 }
 
+const base = baseUrl.replace(/\/+$/, "");
+
 /** 1. Prerender every route to static HTML with react-snap. */
 if (existsSync(join("node_modules", "react-snap"))) {
   const snapEnv = { ...process.env };
@@ -34,7 +36,7 @@ if (existsSync(join("node_modules", "react-snap"))) {
 /** 2. Generate sitemap.xml and robots.txt from the prerendered HTML files. */
 const pages = walk(DIST)
   .map((file) => file.split(sep).join("/"))
-  .filter((file) => !file.endsWith("/404.html"));
+  .filter((file) => !file.endsWith("/404.html") && !file.endsWith("/200.html"));
 
 const urls = pages
   .map((file) => {
@@ -48,14 +50,14 @@ const urls = pages
 const urlset = urls
   .map((path) => {
     const priority = path === "/" ? "1.0" : "0.8";
-    return `  <url>\n    <loc>${baseUrl}${path}</loc>\n    <lastmod>${TODAY}</lastmod>\n    <priority>${priority}</priority>\n  </url>`;
+    return `  <url>\n    <loc>${base}${path}</loc>\n    <lastmod>${TODAY}</lastmod>\n    <priority>${priority}</priority>\n  </url>`;
   })
   .join("\n");
 
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urlset}\n</urlset>\n`;
 writeFileSync(join(DIST, "sitemap.xml"), sitemap);
 
-const robots = `User-agent: *\nAllow: /\nDisallow: /thank-you\n\nSitemap: ${baseUrl}/sitemap.xml\n`;
+const robots = `User-agent: *\nAllow: /\nDisallow: /thank-you\n\nSitemap: ${base}/sitemap.xml\n`;
 writeFileSync(join(DIST, "robots.txt"), robots);
 
 console.log(`[postbuild] sitemap.xml with ${urls.length} URLs written.`);

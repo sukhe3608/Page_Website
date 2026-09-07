@@ -144,7 +144,7 @@ export function QuoteForm({ className }: { className?: string }) {
                 <Input id="q-company" value={values.company} onChange={(e) => setValue("company", e.target.value)} onBlur={() => onBlur("company")} error={!!errors.company} placeholder="Company Inc." autoComplete="organization" />
               </Field>
               <Field label="Phone" htmlFor="q-phone" hint="Optional" error={errors.phone}>
-                <Input id="q-phone" type="tel" value={values.phone} onChange={(e) => setValue("phone", e.target.value)} onBlur={() => onBlur("phone")} error={!!errors.phone} placeholder="+1 (555) 000-0000" autoComplete="tel" />
+                <Input id="q-phone" type="tel" value={values.phone} onChange={(e) => setValue("phone", e.target.value)} onBlur={() => onBlur("phone")} error={!!errors.phone} placeholder="+91 90000 00000" autoComplete="tel" />
               </Field>
             </div>
           )}
@@ -199,7 +199,7 @@ export function QuoteForm({ className }: { className?: string }) {
                   onBlur={() => onBlur("projectScope")}
                   error={!!errors.projectScope}
                   className="min-h-44"
-                  placeholder="What are you trying to achieve? Who is it for? What matters most — speed, quality, cost, scale?"
+                  placeholder="What does your site need? How many doors or cameras? What matters most — coverage, compliance, budget?"
                 />
               </Field>
               <Field label="Timeline" htmlFor="q-timeline" hint="Optional" error={errors.timeline}>

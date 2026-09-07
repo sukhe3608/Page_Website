@@ -198,8 +198,8 @@ export default function ServiceDetail() {
       </div>
 
       <FinalCta
-        title={`Let's plan your ${service.name.toLowerCase()} project`}
-        description="Tell us where you want to go — we'll map the route, scope and budget together."
+        title={`Let's plan your ${service.name.toLowerCase()} installation`}
+        description="Tell us about your site — we'll scope the design, supply, installation and AMC together."
       />
     </PageTransition>
   );

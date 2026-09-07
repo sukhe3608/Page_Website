@@ -35,7 +35,7 @@ export function JobApplicationForm({ jobTitle, className }: { jobTitle: string; 
           <Input id="j-email" type="email" value={values.email} onChange={(e) => setValue("email", e.target.value)} onBlur={() => onBlur("email")} error={!!errors.email} placeholder="jane@company.com" autoComplete="email" />
         </Field>
         <Field label="Phone" htmlFor="j-phone" hint="Optional" error={errors.phone}>
-          <Input id="j-phone" type="tel" value={values.phone} onChange={(e) => setValue("phone", e.target.value)} onBlur={() => onBlur("phone")} error={!!errors.phone} placeholder="+1 (555) 000-0000" autoComplete="tel" />
+          <Input id="j-phone" type="tel" value={values.phone} onChange={(e) => setValue("phone", e.target.value)} onBlur={() => onBlur("phone")} error={!!errors.phone} placeholder="+91 90000 00000" autoComplete="tel" />
         </Field>
         <Field label="LinkedIn or portfolio URL" htmlFor="j-linkedin" hint="Optional" error={errors.linkedin}>
           <Input id="j-linkedin" type="url" value={values.linkedin} onChange={(e) => setValue("linkedin", e.target.value)} onBlur={() => onBlur("linkedin")} error={!!errors.linkedin} placeholder="https://…" autoComplete="url" />

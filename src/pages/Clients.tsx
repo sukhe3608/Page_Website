@@ -18,15 +18,15 @@ export default function Clients() {
     <PageTransition>
       <Seo
         title="Clients"
-        description="A selection of businesses we've worked with — and the outcomes we delivered together."
+        description="The Airports, DRDO Labs, Hospitals, Hotels and Global Brands that trust SLN Automation for fire safety, security and automation."
         path="/clients"
         schema={[breadcrumbSchema([{ name: "Clients" }])]}
       />
 
       <PageHero
         eyebrow="Clients"
-        title="Trusted by teams, big and small"
-        description="Placeholder logo wall and highlights — every entry here will be replaced with real client names and results before launch."
+        title="Trusted where it matters most"
+        description="From Airports and defence labs to hospitals, hotels and global manufacturers — the organizations we're proud to protect."
         crumbs={[{ label: "Clients" }]}
       />
 

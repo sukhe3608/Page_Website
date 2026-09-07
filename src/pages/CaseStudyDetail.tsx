@@ -99,7 +99,7 @@ export default function CaseStudyDetail() {
                 <Artwork tint={project.tint} pattern="flow" className="aspect-[4/3] rounded-2xl shadow-card">
                   <div className="flex h-full items-center px-6">
                     <p className="text-sm font-medium leading-relaxed text-white/90">
-                      {project.client} chose {project.services.join(", ").toLowerCase()} to modernize their platform.
+                      {project.client} chose {project.services.join(", ").toLowerCase()} to secure and protect their operations.
                     </p>
                   </div>
                 </Artwork>
@@ -122,7 +122,7 @@ export default function CaseStudyDetail() {
           </section>
 
           <section id="technology" className="scroll-mt-28" aria-labelledby="cs-tech-heading">
-            <SectionHeading align="left" eyebrow="Our stack" title={<span id="cs-tech-heading">Technology used</span>} />
+            <SectionHeading align="left" eyebrow="Systems used" title={<span id="cs-tech-heading">Equipment &amp; technology</span>} />
             <Reveal className="mt-8">
               <TechChips items={project.technologies} />
             </Reveal>
@@ -143,8 +143,8 @@ export default function CaseStudyDetail() {
 
       <RelatedCaseStudies slugs={relatedProjects} title="More case studies" />
       <FinalCta
-        title="Want results like this?"
-        description="Let's explore what a similar engagement could do for your business."
+        title="Want protection like this?"
+        description="Let's explore what a similar installation could do for your site — starting with a free inspection."
       />
     </PageTransition>
   );

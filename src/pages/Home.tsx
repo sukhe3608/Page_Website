@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <PageTransition>
       <Seo
-        title="Digital Solutions That Drive Real Business Growth"
+        title="Fire Safety, Security & Automation Solutions"
         description={site.description}
         path="/"
         schema={[organizationSchema(), websiteSchema(), faqSchema()]}

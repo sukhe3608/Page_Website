@@ -22,15 +22,15 @@ export default function Team() {
     <PageTransition>
       <Seo
         title="Team"
-        description="Meet the people behind NovaCore — engineers, designers and strategists who care about craft."
+        description="Meet the people behind SLN Automation India Pvt. Ltd. — certified engineers, designers and safety specialists who care about craft."
         path="/team"
         schema={[breadcrumbSchema([{ name: "Team" }])]}
       />
 
       <PageHero
         eyebrow="Team"
-        title="Curious minds, careful hands"
-        description="We hire for judgment and kindness, then give people the autonomy to do their best work. Here's who you'll work with."
+        title="Certified minds, careful hands"
+        description="We hire for judgment and integrity, then give people the training and tools to do their best work. Here's who you'll work with."
         crumbs={[{ label: "Team" }]}
       >
         <div className="flex flex-wrap items-center gap-3 pt-2">

@@ -17,7 +17,7 @@ export function LocationsSection() {
                   <div
                     key={loc.city}
                     className="absolute"
-                    style={{ left: `${18 + i * 28}%`, top: `${30 + (i % 2) * 26}%` }}
+                    style={{ left: `${10 + i * 16}%`, top: `${28 + (i % 3) * 20}%` }}
                   >
                     <motion.div
                       className="relative flex h-9 w-9 items-center justify-center"
@@ -44,8 +44,8 @@ export function LocationsSection() {
               </div>
             </Artwork>
             <div className="absolute -bottom-5 -right-4 rounded-2xl border border-line bg-white px-5 py-4 shadow-lift sm:-right-8">
-              <p className="text-sm font-bold text-navy">3 regions</p>
-              <p className="text-xs text-muted">Global delivery, local presence</p>
+              <p className="text-sm font-bold text-navy">6 offices</p>
+              <p className="text-xs text-muted">PAN-India support network</p>
             </div>
           </div>
         </Reveal>
@@ -55,7 +55,7 @@ export function LocationsSection() {
             align="left"
             eyebrow="Locations"
             title={<span id="locations-heading">Where you can find us</span>}
-            description="Delivery hubs across three regions — always close to your timezone and your market."
+            description="Six offices across India — always close to your site and your team."
           />
           <RevealGroup className="flex flex-col gap-4" stagger={0.08}>
             {locations.map((loc) => (

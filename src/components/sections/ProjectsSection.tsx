@@ -14,7 +14,7 @@ export function ProjectsSection() {
         <SectionHeading
           eyebrow="Selected work"
           title={<span id="projects-heading">Outcomes we deliver, measured in numbers</span>}
-          description="A look at recent engagements — the challenges, the approach, and the results clients can verify."
+          description="A look at recent installations — the challenges, the approach, and the results sites can verify."
         />
         <RevealGroup className="grid gap-6 md:grid-cols-2" stagger={0.1}>
           {featured.map((project, i) => (

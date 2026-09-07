@@ -164,7 +164,7 @@ export type PostBlock =
 export interface Post {
   slug: string;
   title: string;
-  category: "Technology" | "Business" | "Design" | "AI" | "Cloud";
+  category: "Fire Safety" | "Security" | "CCTV & Surveillance" | "Access Control" | "Automation";
   excerpt: string;
   content: PostBlock[];
   date: string;

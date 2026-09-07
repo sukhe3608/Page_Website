@@ -32,11 +32,11 @@ const outDir = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "qa
 mkdirSync(outDir, { recursive: true });
 
 const PAGES = [
-  "/", "/about", "/services", "/services/software-development", "/services/ai-solutions",
-  "/solutions", "/solutions/ecommerce-growth", "/products", "/products/novaflow",
-  "/industries", "/industries/fintech", "/case-studies", "/case-studies/cloud-migration-scale",
-  "/insights", "/insights/practical-guide-llm-production", "/faq", "/team", "/careers",
-  "/careers/senior-fullstack-engineer", "/locations", "/partners", "/clients",
+  "/", "/about", "/services", "/services/fire-alarm-system", "/services/cctv-camera-system",
+  "/solutions", "/solutions/electronic-security-fire", "/products", "/products/cctv-surveillance",
+  "/industries", "/industries/government-defence", "/case-studies", "/case-studies/kannur-airport-fire-panel",
+  "/insights", "/insights/cctv-on-rent-events-guide", "/faq", "/team", "/careers",
+  "/careers/security-system-installation-engineer", "/locations", "/partners", "/clients",
   "/contact", "/get-a-quote", "/schedule-consultation", "/thank-you",
   "/privacy-policy", "/terms", "/cookie-policy", "/404",
 ];
@@ -166,7 +166,7 @@ async function main() {
       await scan(page, `${BASE}${url}`);
       if (url === "/" && width === 1440) await page.screenshot({ path: path.join(outDir, "home-1440.png"), fullPage: false });
       if (url === "/services" && width === 1440) await page.screenshot({ path: path.join(outDir, "services-1440.png") });
-      if (url === "/products/novaflow" && width === 1440) await page.screenshot({ path: path.join(outDir, "product-1440.png") });
+      if (url === "/products/cctv-surveillance" && width === 1440) await page.screenshot({ path: path.join(outDir, "product-1440.png") });
       if (url === "/contact" && width === 1440) await page.screenshot({ path: path.join(outDir, "contact-1440.png") });
       if (url === "/" && width === 390) await page.screenshot({ path: path.join(outDir, "home-390.png") });
       if (url === "/get-a-quote" && width === 1440) await page.screenshot({ path: path.join(outDir, "quote-1440.png") });

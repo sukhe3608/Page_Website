@@ -12,9 +12,9 @@ import { FinalCta } from "@/components/sections/FinalCta";
 import { RevealGroup, RevealItem } from "@/components/animation/Reveal";
 
 const productFaqs = [
-  { q: "Can we try the products before buying?", a: "Yes — every product includes a free trial or demo environment so your team can evaluate it with real workflows and data." },
-  { q: "How does pricing work?", a: "Pricing is transparent and tiered by usage. Request a quote and we'll send a detailed breakdown with no hidden fees." },
-  { q: "Do you help with implementation?", a: "Always. Deployment, integrations and team training are included in every plan." },
+  { q: "Can we see the systems before buying?", a: "Yes — every system can be demonstrated and evaluated on-site, and we start every engagement with a free site inspection and design." },
+  { q: "How does pricing work?", a: "Pricing is transparent and scoped to your site after assessment. Request a quote and we'll send a detailed breakdown with no hidden fees." },
+  { q: "Do you help with installation?", a: "Always. Supply, installation, testing, commissioning and training are included in every engagement — plus AMC support." },
 ];
 
 export default function ProductsHub() {
@@ -22,27 +22,27 @@ export default function ProductsHub() {
     <PageTransition>
       <Seo
         title="Products"
-        description="NovaCore's product suite — workflow automation, real-time analytics, customer service and security platforms built for modern teams."
+        description="SLN Automation's product range — fire alarm, CCTV, access control, solar fencing, public address and more from authorized global brands."
         path="/products"
         schema={[breadcrumbSchema([{ name: "Products" }])]}
       />
 
       <PageHero
         eyebrow="Products"
-        title="Tools your team will actually enjoy"
-        description="Four products, one promise: software that removes friction instead of adding it. Explore the suite or book a demo below."
+        title="Safety systems built to perform"
+        description="Six product lines, one promise: globally certified systems that work when it matters. Explore the range or request a free site inspection below."
         crumbs={[{ label: "Products" }]}
       >
         <div className="flex flex-wrap items-center gap-3 pt-2">
           <Button to="/contact" icon={<ArrowRight className="h-4 w-4" aria-hidden="true" />}>
-            Book a Demo
+            Get Free Site Inspection
           </Button>
         </div>
       </PageHero>
 
       <section className="section-pad" aria-labelledby="products-grid-heading">
         <div className="container-x flex flex-col gap-10">
-          <SectionHeading uiOnly title="Our product suite" />
+          <SectionHeading uiOnly title="Our product range" />
           <RevealGroup className="grid gap-6 md:grid-cols-2" stagger={0.06}>
             {products.map((product) => (
               <RevealItem key={product.slug} className="h-full">
@@ -56,9 +56,9 @@ export default function ProductsHub() {
       <section className="section-pad bg-bg/60" aria-labelledby="products-why-heading">
         <div className="container-x grid gap-8 lg:grid-cols-3">
           {[
-            { icon: ShieldCheck, title: "Enterprise-grade trust", description: "SOC 2 Type II certified, SSO-ready, with encryption and audit trails built in from day one." },
-            { icon: Sparkles, title: "Fast to adopt", description: "Self-serve onboarding, templates and training mean most teams are productive in days, not months." },
-            { icon: Rocket, title: "Built by the team behind them", description: "Our product and services teams work side by side — so bugs get fixed and ideas get shipped quickly." },
+            { icon: ShieldCheck, title: "Trusted brands", description: "Authorized distributor for Honeywell, Notifier, Bosch, Hikvision and more — globally certified, genuine products." },
+            { icon: Sparkles, title: "Designed for your site", description: "Every system is engineered to your site after a free inspection, so it fits your operations from day one." },
+            { icon: Rocket, title: "Backed end-to-end", description: "Supply, install, commission, train and maintain — one accountable partner across the full lifecycle." },
           ].map((item) => (
             <div key={item.title} className="rounded-2xl border border-line bg-white p-6 shadow-soft">
               <span className="mb-4 flex h-11 w-11 items-center justify-center rounded-xl bg-soft text-primary">
@@ -82,7 +82,7 @@ export default function ProductsHub() {
         </div>
       </section>
 
-      <FinalCta title="See the suite in action" description="Book a combined demo of NovaFlow, NovaPulse, NovaDesk and NovaShield." />
+      <FinalCta title="See the range in action" description="Request a free site inspection and we'll demonstrate the right systems for your site." />
     </PageTransition>
   );
 }

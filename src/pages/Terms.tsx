@@ -11,7 +11,7 @@ export default function Terms() {
     <PageTransition>
       <Seo
         title="Terms of Service"
-        description="The terms that govern your use of NovaCore's website, products and services."
+        description="The terms that govern your use of SLN Automation India Pvt. Ltd.'s website, products and services."
         path="/terms"
         schema={[breadcrumbSchema([{ name: "Terms of Service" }])]}
       />
@@ -24,7 +24,7 @@ export default function Terms() {
       />
 
       <LegalLayout
-        intro="These Terms of Service (the &ldquo;Terms&rdquo;) govern your access to and use of the NovaCore website, products and services. By using them, you agree to these Terms. If you don't agree, please don't use them."
+        intro="These Terms of Service (the &ldquo;Terms&rdquo;) govern your access to and use of the SLN Automation India Pvt. Ltd. website, products and services. By using them, you agree to these Terms. If you don't agree, please don't use them."
         lastUpdated="January 1, 2026"
         sections={[
           {
@@ -75,7 +75,7 @@ export default function Terms() {
           {
             id: "governing-law",
             title: "Governing law",
-            body: <p>These Terms are governed by the laws of the Republic of Ireland (placeholder — replace with your actual jurisdiction before launch), without regard to conflict-of-law principles.</p>,
+            body: <p>These Terms are governed by the laws of India, and any disputes are subject to the exclusive jurisdiction of the courts of Bengaluru, Karnataka.</p>,
           },
           {
             id: "contact",
@@ -85,8 +85,7 @@ export default function Terms() {
         ]}
         contact={
           <p className="text-[14.5px] leading-relaxed text-navy/85">
-            Before making any decision based on these Terms, consult your own legal counsel. This is placeholder
-            template language.{" "}
+            Before making any decision based on these Terms, consult your own legal counsel.{" "}
             <Link to="/privacy-policy" className="font-semibold text-primary hover:text-primary-dark">
               Read our Privacy Policy
             </Link>

@@ -16,15 +16,15 @@ export default function Partners() {
     <PageTransition>
       <Seo
         title="Partners"
-        description="The technology partners we work with — cloud platforms, SaaS tools and communities we trust."
+        description="The global brands SLN Automation supplies and supports — Honeywell, Notifier, Bosch, Mircom, Hikvision and more."
         path="/partners"
         schema={[breadcrumbSchema([{ name: "Partners" }])]}
       />
 
       <PageHero
         eyebrow="Partners"
-        title="Better together"
-        description="We're platform-agnostic but partner-curious. These are the ecosystems we know best and recommend most."
+        title="The brands we trust"
+        description="We're authorized distributors for world-leading safety and security brands — so your systems are built on globally certified, genuine equipment."
         crumbs={[{ label: "Partners" }]}
       />
 
@@ -60,13 +60,13 @@ export default function Partners() {
             </span>
             <SectionHeading
               align="center"
-              eyebrow="Work with us"
-              title={<span id="partners-cta-heading">Become a partner</span>}
-              description="If your platform or practice would benefit our mutual clients, we'd love to explore a partnership."
+              eyebrow="Distributor network"
+              title={<span id="partners-cta-heading">Want to know more?</span>}
+              description="Ask us about any brand in our portfolio — we'll advise on the right system for your site and requirements."
             />
             <div className="flex flex-wrap justify-center gap-3">
               <Button to="/contact" icon={<ArrowRight className="h-4 w-4" aria-hidden="true" />}>
-                Talk Partnerships
+                Talk to Us
               </Button>
             </div>
           </div>

@@ -128,7 +128,7 @@ export default function JobDetail() {
         </aside>
       </div>
 
-      <FinalCta title="Don't see your role?" description="Tell us what you'd love to build, and we'll keep you in mind for the right opening." />
+      <FinalCta title="Don't see your role?" description="Tell us what you'd love to work on, and we'll keep you in mind for the right opening." />
     </PageTransition>
   );
 }

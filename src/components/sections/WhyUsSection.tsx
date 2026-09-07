@@ -9,32 +9,32 @@ const reasons: { icon: IconName; title: string; description: string }[] = [
   {
     icon: "users",
     title: "Customer Centric",
-    description: "We measure success by your outcomes — and stay accountable to them long after launch.",
-  },
-  {
-    icon: "workflow",
-    title: "Agile & Flexible",
-    description: "Two-week delivery cycles with weekly demos. Priorities can shift as you learn, without derailing.",
+    description: "Every project starts with a free site inspection and your safety goals in mind — not a one-size-fits-all quote.",
   },
   {
     icon: "shield-check",
-    title: "Quality Assured",
-    description: "Automated testing, code review and security checks are non-negotiable on every engagement.",
+    title: "Authorized & Certified",
+    description: "Authorized distributor for global brands with certified, background-checked installation and service engineers.",
   },
   {
-    icon: "compass",
-    title: "Transparent",
-    description: "Real progress, real budgets, real risks — shared openly every single week.",
+    icon: "building",
+    title: "End-to-End Delivery",
+    description: "Design, supply, installation, commissioning, training and AMC — one accountable partner across the full lifecycle.",
   },
   {
-    icon: "rocket",
-    title: "Future Ready",
-    description: "Architecture that anticipates scale, regulation and the next technology cycle.",
+    icon: "heart-pulse",
+    title: "Compliance First",
+    description: "Systems built to applicable safety and security standards — protecting people, assets and your reputation.",
+  },
+  {
+    icon: "clock",
+    title: "On-Time, Every Time",
+    description: "Structured project management and clear milestones keep critical schedules — airports, labs and hospitals — on track.",
   },
   {
     icon: "life-buoy",
     title: "Continuous Support",
-    description: "Monitoring, maintenance and iteration partnerships that outlast the initial build.",
+    description: "AMC services, priority response and genuine spares keep your systems reliable long after commissioning.",
   },
 ];
 
@@ -48,9 +48,9 @@ export function WhyUsSection() {
         </div>
 
         <SectionHeading
-          eyebrow="Why NovaCore"
-          title={<span id="why-us-heading">Why teams choose to work with us</span>}
-          description="The principles that shape every project, team and decision we make."
+          eyebrow="Why SLN Automation"
+          title={<span id="why-us-heading">Why clients choose to work with us</span>}
+          description="The principles that shape every installation, team and decision we make."
         />
 
         <RevealGroup className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3" stagger={0.07}>

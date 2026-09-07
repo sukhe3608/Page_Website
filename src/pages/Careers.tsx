@@ -11,10 +11,10 @@ import { FinalCta } from "@/components/sections/FinalCta";
 import { RevealGroup, RevealItem } from "@/components/animation/Reveal";
 
 const perks = [
-  { icon: Laptop, title: "Remote-friendly", description: "Work from home, an office or anywhere in between — async by default." },
-  { icon: HeartPulse, title: "Healthcare & wellness", description: "Comprehensive coverage plus a wellness stipend that's actually worth using." },
-  { icon: Coffee, title: "Learning budget", description: "Annual budget for courses, conferences and books, no approval theater." },
-  { icon: UsersRound, title: "Real ownership", description: "Small teams, clear missions and the autonomy to make decisions." },
+  { icon: Laptop, title: "Hands-on training", description: "On-the-job certification and training in fire safety, ELV and automation systems." },
+  { icon: HeartPulse, title: "Health & safety", description: "Comprehensive coverage, PPE and safety-first culture on every site, every day." },
+  { icon: Coffee, title: "Learning budget", description: "Annual budget for certifications, courses and conferences — no approval theater." },
+  { icon: UsersRound, title: "Real ownership", description: "Small teams, clear missions and the autonomy to make decisions on-site." },
 ];
 
 export default function Careers() {
@@ -22,14 +22,14 @@ export default function Careers() {
     <PageTransition>
       <Seo
         title="Careers"
-        description="Join NovaCore — remote-friendly roles in engineering, design, product and delivery with real ownership."
+        description="Join SLN Automation India Pvt. Ltd. — certified roles in fire safety, security, ELV and automation with real ownership."
         path="/careers"
         schema={[breadcrumbSchema([{ name: "Careers" }])]}
       />
 
       <PageHero
         eyebrow="Careers"
-        title="Do the best work of your career"
+        title="Build a career protecting what matters"
         description="We're building a company where craft matters, deadlines are honest and people are treated like adults. Sound like your kind of place?"
         crumbs={[{ label: "Careers" }]}
       >
@@ -42,7 +42,7 @@ export default function Careers() {
 
       <section className="section-pad" aria-labelledby="careers-perks-heading">
         <div className="container-x flex flex-col gap-10">
-          <SectionHeading align="center" eyebrow="Why NovaCore" title={<span id="careers-perks-heading">What we offer beyond a paycheck</span>} />
+          <SectionHeading align="center" eyebrow="Why SLN Automation" title={<span id="careers-perks-heading">What we offer beyond a paycheck</span>} />
           <RevealGroup className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4" stagger={0.07}>
             {perks.map((perk) => (
               <RevealItem key={perk.title}>

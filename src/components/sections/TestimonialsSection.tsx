@@ -10,8 +10,8 @@ export function TestimonialsSection() {
       <div className="container-x flex flex-col gap-12">
         <SectionHeading
           eyebrow="Client voices"
-          title={<span id="testimonials-heading">What working with us feels like</span>}
-          description="Placeholder testimonials — real client quotes will replace these before launch."
+          title={<span id="testimonials-heading">Trusted by teams across India</span>}
+          description="From airports and defence labs to hospitals and hotels — here's what our clients say."
         />
         <Reveal direction="up" delay={0.1}>
           <Carousel

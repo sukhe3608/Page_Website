@@ -5,6 +5,7 @@ import { ArrowRight, ChevronDown, Menu } from "lucide-react";
 import { motionTokens } from "@/animations/tokens";
 import { services } from "@/data/services";
 import { solutions } from "@/data/solutions";
+import { products } from "@/data/products";
 import { industries } from "@/data/industries";
 import { Icon } from "@/components/ui/Icon";
 import { Magnetic } from "@/components/ui/Magnetic";
@@ -46,6 +47,12 @@ const entries: NavEntry[] = [
     items: solutions.slice(0, 5).map((s) => ({ to: `/solutions/${s.slug}`, label: s.name, description: s.tagline, icon: s.icon })),
   },
   {
+    key: "products",
+    label: "Products",
+    seeAll: { to: "/products", label: "All products" },
+    items: products.slice(0, 5).map((p) => ({ to: `/products/${p.slug}`, label: p.name, description: p.tagline, icon: p.icon })),
+  },
+  {
     key: "industries",
     label: "Industries",
     seeAll: { to: "/industries", label: "All industries" },
@@ -67,7 +74,7 @@ const entries: NavEntry[] = [
     key: "resources",
     label: "Resources",
     items: [
-      { to: "/insights", label: "Insights", description: "Articles on technology and business" },
+      { to: "/insights", label: "Insights", description: "Guides on safety and security systems" },
       { to: "/faq", label: "FAQ", description: "Answers to common questions" },
       { to: "/case-studies", label: "Case Studies", description: "How we deliver outcomes" },
     ],
@@ -214,7 +221,7 @@ export function Navbar() {
         <div className="hidden items-center gap-3 lg:flex">
           <Magnetic strength={0.25}>
             <Button to="/get-a-quote" size="sm" icon={<ArrowRight className="h-4 w-4" aria-hidden="true" />}>
-              Let&apos;s Talk
+              Get Free Site Inspection
             </Button>
           </Magnetic>
         </div>

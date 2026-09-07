@@ -130,8 +130,8 @@ export default function ProductDetail() {
               <div className="flex items-start gap-3 text-[15px] text-muted">
                 <Plug className="mt-0.5 h-5 w-5 shrink-0 text-primary" aria-hidden="true" />
                 <p>
-                  {product.name} works alongside the tools your team already uses. Open APIs and webhooks make
-                  integration straightforward.
+                  {product.name} works alongside your existing infrastructure. Open protocols and standard
+                  interfaces make integration straightforward.
                 </p>
               </div>
               <TechChips items={product.integrations} />
@@ -173,7 +173,7 @@ export default function ProductDetail() {
 
       <FinalCta
         title={`See ${product.name} in action`}
-        description="Book a 30-minute demo tailored to your workflow — no obligations, no sales pitch."
+        description="Request a free site inspection and see how it fits your premises — no obligations, no sales pitch."
       />
     </PageTransition>
   );

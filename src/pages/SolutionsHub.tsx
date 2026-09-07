@@ -15,20 +15,20 @@ export default function SolutionsHub() {
     <PageTransition>
       <Seo
         title="Solutions"
-        description="Ready-to-apply solutions for modern teams: e-commerce, AI, data analytics, security and more."
+        description="Integrated safety solutions — electronic security, fire protection, communication systems, lighting and more."
         path="/solutions"
         schema={[breadcrumbSchema([{ name: "Solutions" }])]}
       />
 
       <PageHero
         eyebrow="Solutions"
-        title="Proven patterns, applied to your business"
-        description="Every solution below combines our services into a packaged outcome — so you get a defined scope, a known timeline and a clear result."
+        title="Proven patterns, applied to your site"
+        description="Every solution below combines our systems into a packaged outcome — so you get a defined scope, a known timeline and a clear result."
         crumbs={[{ label: "Solutions" }]}
       >
         <div className="flex flex-wrap items-center gap-3 pt-2">
           <Button to="/schedule-consultation" icon={<ArrowRight className="h-4 w-4" aria-hidden="true" />}>
-            Book a Discovery Call
+            Get Free Site Inspection
           </Button>
         </div>
       </PageHero>
@@ -53,7 +53,7 @@ export default function SolutionsHub() {
               align="center"
               eyebrow="Not sure where to start"
               title={<span id="solutions-cta-heading">Combine solutions freely</span>}
-              description="Most clients start with one solution and add more as adoption grows. Tell us your priority and we'll sequence the rest."
+              description="Most clients start with one solution and add more as their needs grow. Tell us your priority and we'll sequence the rest."
             />
             <div className="mt-8 flex flex-wrap justify-center gap-3">
               <Button to="/get-a-quote">Get a Free Quote</Button>

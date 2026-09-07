@@ -6,10 +6,10 @@ import { Parallax } from "@/components/animation/Parallax";
 import { Counter } from "@/components/animation/Counter";
 
 const highlights = [
-  "Product and platform engineering",
-  "Cloud, DevOps and AI expertise",
-  "Security and compliance built in",
-  "Transparent, outcome-driven delivery",
+  "Fire alarm, hydrant and sprinkler systems",
+  "CCTV, access control and intrusion detection",
+  "Authorized distributor for global brands",
+  "Design, supply, install and AMC support",
 ];
 
 export function Intro() {
@@ -22,14 +22,14 @@ export function Intro() {
           </Reveal>
           <Reveal direction="up" delay={0.05}>
             <h2 id="intro-heading" className="text-balance text-[clamp(1.75rem,4vw,2.75rem)] font-semibold leading-[1.15] tracking-tight text-navy">
-              A technology partner for the <span className="text-gradient">next phase</span> of your business
+              Protecting people &amp; assets with <span className="text-gradient">smart safety systems</span>
             </h2>
           </Reveal>
           <Reveal direction="up" delay={0.1}>
             <p className="max-w-xl text-pretty text-[17px] leading-relaxed text-muted">
-              NovaCore designs, builds and operates the digital products that ambitious organizations
-              depend on. From first roadmap to production scale, our senior teams take ownership of
-              outcomes — not just deliverables.
+              SLN Automation is a certified, end-to-end fire safety and security partner. From design
+              and supply to installation, commissioning and AMC service, we protect critical
+              sites and shared spaces with globally certified technology.
             </p>
           </Reveal>
           <Reveal direction="up" delay={0.15}>
@@ -45,7 +45,7 @@ export function Intro() {
           <Reveal direction="up" delay={0.2}>
             <div className="flex flex-wrap items-center gap-3 pt-2">
               <Button to="/about" icon={<ArrowRight className="h-4.5 w-4.5" aria-hidden="true" />}>
-                About NovaCore
+                About SLN Automation
               </Button>
               <Button to="/case-studies" variant="ghost">
                 See how we work <span aria-hidden="true">→</span>
@@ -63,17 +63,17 @@ export function Intro() {
                 <div className="flex h-full items-center justify-center">
                   <div className="mx-8 w-full max-w-sm rounded-2xl border border-white/25 bg-white/12 p-5 backdrop-blur-sm">
                     <div className="mb-4 flex items-center justify-between">
-                      <span className="text-sm font-semibold text-white">Digital operations</span>
+                      <span className="text-sm font-semibold text-white">Safety systems</span>
                       <span className="rounded-full bg-white/20 px-2 py-0.5 text-[11px] font-semibold">Live</span>
                     </div>
                     <div className="flex gap-3">
                       <div className="flex-1 rounded-xl bg-white/12 p-3">
                         <p className="text-xl font-bold text-white">1,240</p>
-                        <p className="text-[11px] text-white/70">Automated tasks</p>
+                        <p className="text-[11px] text-white/70">Systems installed</p>
                       </div>
                       <div className="flex-1 rounded-xl bg-white/12 p-3">
                         <p className="text-xl font-bold text-white">96%</p>
-                        <p className="text-[11px] text-white/70">Success rate</p>
+                        <p className="text-[11px] text-white/70">On-time delivery</p>
                       </div>
                     </div>
                   </div>

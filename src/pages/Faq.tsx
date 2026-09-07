@@ -15,7 +15,7 @@ export default function Faq() {
     <PageTransition>
       <Seo
         title="FAQ"
-        description="Answers to common questions about NovaCore — how we work, pricing, timelines, support and more."
+        description="Answers to common questions about SLN Automation — how we work, pricing, timelines, AMC support and more."
         path="/faq"
         schema={[faqSchema(generalFaqs), breadcrumbSchema([{ name: "FAQ" }])]}
       />
@@ -43,7 +43,7 @@ export default function Faq() {
             </Reveal>
             <div className="mt-4">
               <Button to="/get-a-quote" icon={<ArrowRight className="h-4 w-4" aria-hidden="true" />}>
-                Get a Free Quote
+                Get Free Site Inspection
               </Button>
             </div>
           </div>

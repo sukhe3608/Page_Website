@@ -15,10 +15,10 @@ interface FinalCtaProps {
 }
 
 export function FinalCta({
-  title = "Let's build something amazing together",
-  description = "Have an idea? Let's transform it into a scalable digital solution — tell us where you want to go and we'll map the route.",
-  primary = { label: "Schedule Consultation", to: "/schedule-consultation" },
-  secondary = { label: "Talk to Us", to: "/contact" },
+  title = "Let's protect what matters most",
+  description = "Get a free site inspection and a transparent proposal from India's trusted fire safety and security partner. We'll protect your people, assets and operations.",
+  primary = { label: "Get Free Site Inspection", to: "/schedule-consultation" },
+  secondary = { label: "Call Us Now", to: "/contact" },
 }: FinalCtaProps) {
   return (
     <section className="section-pad" aria-labelledby="final-cta-heading">

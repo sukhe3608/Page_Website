@@ -16,15 +16,15 @@ export default function ServicesHub() {
     <PageTransition>
       <Seo
         title="Services"
-        description="From web platforms and mobile apps to AI integrations and cloud engineering — discover the full range of services NovaCore offers."
+        description="Fire safety, electronic security, access control, automation and more — discover the full range of systems SLN Automation designs, supplies and maintains."
         path="/services"
         schema={[breadcrumbSchema([{ name: "Services" }])]}
       />
 
       <PageHero
         eyebrow="Services"
-        title="Everything you need to ship great software"
-        description="Eight practices, one accountable team. Browse what we do — or jump straight to a conversation about your project."
+        title="Everything you need to stay safe & secure"
+        description="Twenty-three practices, one accountable team. Browse what we do — or jump straight to a conversation about your site."
         crumbs={[{ label: "Services" }]}
       >
         <div className="flex flex-wrap items-center gap-3 pt-2">
@@ -63,7 +63,7 @@ export default function ServicesHub() {
       </section>
 
       <ProcessSection />
-      <FinalCta title="Not sure which service you need?" description="Describe your goal — we'll recommend the right approach and scope." />
+      <FinalCta title="Not sure which system you need?" description="Describe your site and goals — we'll recommend the right approach, design and scope." />
     </PageTransition>
   );
 }

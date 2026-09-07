@@ -15,15 +15,15 @@ export default function Locations() {
     <PageTransition>
       <Seo
         title="Locations"
-        description="Where to find NovaCore — offices across the world and how to reach us."
+        description="Where to find SLN Automation India Pvt. Ltd. — offices across India and how to reach us."
         path="/locations"
         schema={[breadcrumbSchema([{ name: "Locations" }])]}
       />
 
       <PageHero
         eyebrow="Locations"
-        title="Where you'll find us"
-        description="Three offices, one global team. Visit us, call us, or just start a conversation online — whatever works best for you."
+        title="Six offices, one team across India"
+        description="Visit us, call us, or just start a conversation online — whatever works best for you."
         crumbs={[{ label: "Locations" }]}
       />
 
@@ -80,7 +80,7 @@ export default function Locations() {
           <div className="flex flex-col items-center gap-6 text-center">
             <h2 className="text-3xl font-semibold tracking-tight text-navy sm:text-4xl">Prefer to start online?</h2>
             <p className="max-w-xl text-[15.5px] leading-relaxed text-muted">
-              Most of our projects start with one simple conversation — no travel required.
+              Most of our projects start with one simple conversation — a free site inspection — no travel required.
             </p>
             <div className="flex flex-wrap justify-center gap-3">
               <Button to="/contact" icon={<ArrowRight className="h-4 w-4" aria-hidden="true" />}>

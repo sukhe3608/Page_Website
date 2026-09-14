@@ -69,6 +69,8 @@ export default function Partners() {
                     alt=""
                     aria-hidden="true"
                     loading="lazy"
+                    width={120}
+                    height={80}
                     className="max-h-full w-full object-contain"
                   />
                 </div>

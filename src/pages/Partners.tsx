@@ -1,7 +1,7 @@
 import { ArrowRight, Handshake } from "lucide-react";
 import PageTransition from "@/components/animation/PageTransition";
 import Seo from "@/components/seo/Seo";
-import { partners } from "@/data/misc";
+import { partners, partnerLogos } from "@/data/misc";
 import { breadcrumbSchema } from "@/config/schemas";
 import { PageHero } from "@/components/layout/PageHero";
 import { Button } from "@/components/ui/Button";
@@ -16,7 +16,7 @@ export default function Partners() {
     <PageTransition>
       <Seo
         title="Partners"
-        description="The global brands SLN Automation supplies and supports — Honeywell, Notifier, Bosch, Mircom, Hikvision and more."
+        description="The global brands SLN Automation supplies and supports — from fire-safety leaders to 120+ authorized technology partners for security, automation and IT infrastructure."
         path="/partners"
         schema={[breadcrumbSchema([{ name: "Partners" }])]}
       />
@@ -49,6 +49,32 @@ export default function Partners() {
               </RevealGroup>
             </div>
           ))}
+        </div>
+      </section>
+
+      <section className="section-pad" aria-labelledby="brands-heading">
+        <div className="container-x flex flex-col gap-10">
+          <SectionHeading
+            align="center"
+            eyebrow="Brands"
+            title={<span id="brands-heading">Authorized brands we work with</span>}
+            description="Over 120 global brands supplying and supporting our fire safety, security, automation and IT infrastructure solutions across India."
+          />
+          <RevealGroup className="grid grid-cols-3 gap-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-8" stagger={0.02}>
+            {partnerLogos.map((logo) => (
+              <RevealItem key={logo}>
+                <div className="flex h-20 items-center justify-center rounded-xl border border-line bg-white px-3 py-2 shadow-soft transition-all duration-300 hover:border-primary/25 hover:shadow-card">
+                  <img
+                    src={`${import.meta.env.BASE_URL}${logo}`}
+                    alt=""
+                    aria-hidden="true"
+                    loading="lazy"
+                    className="max-h-full w-full object-contain"
+                  />
+                </div>
+              </RevealItem>
+            ))}
+          </RevealGroup>
         </div>
       </section>
 

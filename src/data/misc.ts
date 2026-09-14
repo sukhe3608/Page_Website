@@ -102,6 +102,8 @@ export const partners: Partner[] = [
   { name: "Hikvision", category: "CCTV & Surveillance" },
 ];
 
+export const partnerLogos: string[] = Array.from({ length: 120 }, (_, i) => `images/partners/${i + 1}.png`);
+
 export const stats: Stat[] = [
   { value: 10, suffix: "+", label: "Years of excellence" },
   { value: 1000, suffix: "+", label: "Projects delivered" },

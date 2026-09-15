@@ -49,7 +49,7 @@ export function Preloader() {
               transition={{ delay: 0.25, duration: 0.5, ease: motionTokens.ease.standard }}
               className="text-sm font-semibold tracking-[0.18em] text-navy"
             >
-              NOVACORE
+              SHIVA ENGINEERS
             </motion.p>
             <div className="h-1 w-40 overflow-hidden rounded-full bg-line">
               <motion.div

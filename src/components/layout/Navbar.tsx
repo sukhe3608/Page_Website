@@ -126,14 +126,14 @@ export function Navbar() {
         <Logo />
 
         <nav aria-label="Main navigation" className="hidden lg:block">
-          <ul className="flex items-center gap-1">
+          <ul className="flex items-center gap-2.5">
             {entries.map((entry) => (
               <li key={entry.key} className="relative">
                 {entry.to ? (
                   <Link
                     to={entry.to}
                     className={cn(
-                      "link-underline rounded-lg px-3 py-2 text-[14.5px] font-semibold text-navy transition-colors duration-300 hover:text-primary",
+                      "link-underline inline-flex h-10 items-center whitespace-nowrap rounded-lg px-3 text-[14.5px] font-semibold text-navy transition-colors duration-300 hover:text-primary",
                       location.pathname === entry.to && "text-primary"
                     )}
                   >
@@ -150,7 +150,7 @@ export function Navbar() {
                       aria-expanded={openMenu === entry.key}
                       aria-haspopup="menu"
                       className={cn(
-                        "flex items-center gap-1 rounded-lg px-3 py-2 text-[14.5px] font-semibold transition-colors duration-300",
+                        "inline-flex h-10 items-center gap-1 whitespace-nowrap rounded-lg px-3 text-[14.5px] font-semibold transition-colors duration-300",
                         openMenu === entry.key ? "text-primary" : "text-navy hover:text-primary"
                       )}
                     >
@@ -219,7 +219,7 @@ export function Navbar() {
         </nav>
 
         <div className="hidden items-center gap-3 lg:flex">
-          <Magnetic strength={0.25}>
+          <Magnetic strength={0.25} className="flex items-center">
             <Button to="/get-a-quote" size="sm" icon={<ArrowRight className="h-4 w-4" aria-hidden="true" />}>
               Get Free Site Inspection
             </Button>

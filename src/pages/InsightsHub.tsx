@@ -88,7 +88,7 @@ export default function InsightsHub() {
           <div className="rounded-2xl border border-line bg-soft/50 p-6 text-center">
             <p className="text-[14.5px] text-navy/80">
               Want these insights in your inbox?{" "}
-              <a href="mailto:info@slninfosys.com" className="font-semibold text-primary hover:text-primary-dark">
+              <a href="mailto:info@shivaengineer.com" className="font-semibold text-primary hover:text-primary-dark">
                 Subscribe to our newsletter
               </a>
               .

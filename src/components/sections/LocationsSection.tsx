@@ -44,8 +44,8 @@ export function LocationsSection() {
               </div>
             </Artwork>
             <div className="absolute -bottom-5 -right-4 rounded-2xl border border-line bg-white px-5 py-4 shadow-lift sm:-right-8">
-              <p className="text-sm font-bold text-navy">6 offices</p>
-              <p className="text-xs text-muted">PAN-India support network</p>
+              <p className="text-sm font-bold text-navy">New Delhi HQ</p>
+              <p className="text-xs text-muted">PAN-India service</p>
             </div>
           </div>
         </Reveal>
@@ -55,7 +55,7 @@ export function LocationsSection() {
             align="left"
             eyebrow="Locations"
             title={<span id="locations-heading">Where you can find us</span>}
-            description="Six offices across India — always close to your site and your team."
+            description="Head office in New Delhi — always close to your site and your team across India."
           />
           <RevealGroup className="flex flex-col gap-4" stagger={0.08}>
             {locations.map((loc) => (

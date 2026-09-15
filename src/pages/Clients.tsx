@@ -18,7 +18,7 @@ export default function Clients() {
     <PageTransition>
       <Seo
         title="Clients"
-        description="The Airports, DRDO Labs, Hospitals, Hotels and Global Brands that trust SLN Automation for fire safety, security and automation."
+        description="The Airports, DRDO Labs, Hospitals, Hotels and Global Brands that trust Shiva Engineers for fire safety, security and automation."
         path="/clients"
         schema={[breadcrumbSchema([{ name: "Clients" }])]}
       />

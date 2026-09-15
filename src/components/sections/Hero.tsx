@@ -146,7 +146,7 @@ export function Hero() {
             transition={{ duration: 0.55, ease: motionTokens.ease.standard, delay: 1.05 }}
             className="max-w-xl text-pretty text-lg leading-relaxed text-muted"
           >
-            SLN Automation is a fire safety, security and automation company protecting Airports,
+            Shiva Engineers is a fire safety, security and automation company protecting Airports,
             DRDO Labs, Hospitals, Hotels and Global Brands across India since 2016.
           </motion.p>
 

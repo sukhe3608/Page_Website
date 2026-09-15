@@ -17,6 +17,14 @@ export function organizationSchema() {
       "@type": "PostalAddress",
       streetAddress: site.address,
     },
+    contactPoint: {
+      "@type": "ContactPoint",
+      contactType: "sales",
+      name: site.contactPerson,
+      telephone: site.phone,
+      email: site.email,
+      areaServed: "IN",
+    },
     sameAs: site.socials.map((s) => s.href),
   };
 }

@@ -16,7 +16,7 @@ export default function ServicesHub() {
     <PageTransition>
       <Seo
         title="Services"
-        description="Fire safety, electronic security, access control, automation and more — discover the full range of systems SLN Automation designs, supplies and maintains."
+        description="Fire safety, electronic security, access control, automation and more — discover the full range of systems Shiva Engineers designs, supplies and maintains."
         path="/services"
         schema={[breadcrumbSchema([{ name: "Services" }])]}
       />

@@ -15,14 +15,14 @@ export default function Locations() {
     <PageTransition>
       <Seo
         title="Locations"
-        description="Where to find SLN Automation India Pvt. Ltd. — offices across India and how to reach us."
+        description="Where to find Shiva Engineers — head office in New Delhi and how to reach us."
         path="/locations"
         schema={[breadcrumbSchema([{ name: "Locations" }])]}
       />
 
       <PageHero
         eyebrow="Locations"
-        title="Six offices, one team across India"
+        title="Based in New Delhi, serving all of India"
         description="Visit us, call us, or just start a conversation online — whatever works best for you."
         crumbs={[{ label: "Locations" }]}
       />

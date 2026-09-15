@@ -48,7 +48,7 @@ export function WhyUsSection() {
         </div>
 
         <SectionHeading
-          eyebrow="Why SLN Automation"
+          eyebrow="Why Shiva Engineers"
           title={<span id="why-us-heading">Why clients choose to work with us</span>}
           description="The principles that shape every installation, team and decision we make."
         />

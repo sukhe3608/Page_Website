@@ -27,7 +27,7 @@ export function Intro() {
           </Reveal>
           <Reveal direction="up" delay={0.1}>
             <p className="max-w-xl text-pretty text-[17px] leading-relaxed text-muted">
-              SLN Automation is a certified, end-to-end fire safety and security partner. From design
+              Shiva Engineers is a certified, end-to-end fire safety and security partner. From design
               and supply to installation, commissioning and AMC service, we protect critical
               sites and shared spaces with globally certified technology.
             </p>
@@ -45,7 +45,7 @@ export function Intro() {
           <Reveal direction="up" delay={0.2}>
             <div className="flex flex-wrap items-center gap-3 pt-2">
               <Button to="/about" icon={<ArrowRight className="h-4.5 w-4.5" aria-hidden="true" />}>
-                About SLN Automation
+                About Shiva Engineers
               </Button>
               <Button to="/case-studies" variant="ghost">
                 See how we work <span aria-hidden="true">→</span>

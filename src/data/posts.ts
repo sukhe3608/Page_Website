@@ -36,7 +36,7 @@ export const posts: Post[] = [
       {
         type: "quote",
         text: "Rental CCTV is about prepared protection — having evidence and deterrence in place before an incident, not after.",
-        cite: "SLN Automation team",
+        cite: "Shiva Engineers team",
       },
       { type: "h2", text: "Plan your coverage" },
       {
@@ -50,7 +50,7 @@ export const posts: Post[] = [
     ],
     date: "Apr 17, 2026",
     readTime: "5 min read",
-    author: "SLN Automation",
+    author: "Shiva Engineers",
     tint: "blue",
   },
   {
@@ -77,7 +77,7 @@ export const posts: Post[] = [
       {
         type: "quote",
         text: "The best perimeter is the one that deters before it detects — solar fencing does both, around the clock.",
-        cite: "SLN Automation team",
+        cite: "Shiva Engineers team",
       },
       { type: "h2", text: "Where solar fencing fits best" },
       {
@@ -101,7 +101,7 @@ export const posts: Post[] = [
     ],
     date: "Feb 17, 2026",
     readTime: "6 min read",
-    author: "SLN Automation",
+    author: "Shiva Engineers",
     tint: "teal",
   },
   {
@@ -139,7 +139,7 @@ export const posts: Post[] = [
       {
         type: "quote",
         text: "The strongest access control is not the smartest technology — it is the one your people actually use consistently.",
-        cite: "SLN Automation team",
+        cite: "Shiva Engineers team",
       },
       { type: "h2", text: "The practical answer" },
       {
@@ -153,7 +153,7 @@ export const posts: Post[] = [
     ],
     date: "Feb 9, 2026",
     readTime: "5 min read",
-    author: "SLN Automation",
+    author: "Shiva Engineers",
     tint: "navy",
   },
   {
@@ -194,7 +194,7 @@ export const posts: Post[] = [
     ],
     date: "Jan 20, 2026",
     readTime: "5 min read",
-    author: "SLN Automation",
+    author: "Shiva Engineers",
     tint: "violet",
   },
 ];

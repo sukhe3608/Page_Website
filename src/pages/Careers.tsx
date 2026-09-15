@@ -22,7 +22,7 @@ export default function Careers() {
     <PageTransition>
       <Seo
         title="Careers"
-        description="Join SLN Automation India Pvt. Ltd. — certified roles in fire safety, security, ELV and automation with real ownership."
+        description="Join Shiva Engineers — certified roles in fire safety, security, ELV and automation with real ownership."
         path="/careers"
         schema={[breadcrumbSchema([{ name: "Careers" }])]}
       />
@@ -42,7 +42,7 @@ export default function Careers() {
 
       <section className="section-pad" aria-labelledby="careers-perks-heading">
         <div className="container-x flex flex-col gap-10">
-          <SectionHeading align="center" eyebrow="Why SLN Automation" title={<span id="careers-perks-heading">What we offer beyond a paycheck</span>} />
+          <SectionHeading align="center" eyebrow="Why Shiva Engineers" title={<span id="careers-perks-heading">What we offer beyond a paycheck</span>} />
           <RevealGroup className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4" stagger={0.07}>
             {perks.map((perk) => (
               <RevealItem key={perk.title}>

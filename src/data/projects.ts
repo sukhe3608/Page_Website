@@ -9,7 +9,7 @@ export const caseStudies: CaseStudy[] = [
     summary:
       "Rapid, expert rectification of a Siemens fire panel issue at Kannur Airport — restoring operations with priority response.",
     description:
-      "When a critical Siemens fire panel issue threatened operations at Kannur International Airport, the SLN team responded to resolve the rectification within the stipulated time.\n\nThe work was appreciated for its responsiveness and professionalism, ensuring the airport's fire safety systems remained reliable and compliant.",
+      "When a critical Siemens fire panel issue threatened operations at Kannur International Airport, the Shiva Engineers team responded to resolve the rectification within the stipulated time.\n\nThe work was appreciated for its responsiveness and professionalism, ensuring the airport's fire safety systems remained reliable and compliant.",
     challenge:
       "A critical Siemens fire panel issue at the airport needed urgent, expert rectification to restore full fire detection and alarm functionality without compromising safety.",
     solution:
@@ -120,7 +120,7 @@ export const testimonials: Testimonial[] = [
     role: "Client",
     company: "Google Review",
     quote:
-      "Good service. SLN Automation delivered clean, professional work and the follow-up support has been reliable.",
+      "Good service. Shiva Engineers delivered clean, professional work and the follow-up support has been reliable.",
     rating: 5,
     initials: "NP",
   },
@@ -138,14 +138,14 @@ export const testimonials: Testimonial[] = [
     role: "Client",
     company: "Google Review",
     quote:
-      "SLN team did the rectification works at my site within the stipulated time. Professional and dependable.",
+      "Shiva Engineers team did the rectification works at my site within the stipulated time. Professional and dependable.",
     rating: 5,
     initials: "RB",
   },
 ];
 
 export const teamMembers: TeamMember[] = [
-  { name: "Yograj Sharma", role: "Chief Executive Officer", department: "Leadership", bio: "Leads the vision, strategy and partnerships of SLN Automation, driving 10+ years of excellence since 2016.", initials: "YS" },
+  { name: "Yograj Sharma", role: "Chief Executive Officer", department: "Leadership", bio: "Leads the vision, strategy and partnerships of Shiva Engineers, driving 10+ years of excellence since 2016.", initials: "YS" },
   { name: "Anil Kumar N", role: "Head of Operations and Sales", department: "Leadership", bio: "Owns operations and sales, ensuring every project is delivered on time with complete client satisfaction.", initials: "AK" },
   { name: "Muniraju M", role: "Projects Manager", department: "Projects", bio: "Manages project delivery end-to-end — from design and installation to testing and commissioning.", initials: "MM" },
   { name: "Bhumika Sharma", role: "Head of Finance and Accounts", department: "Leadership", bio: "Oversees finance, accounts and compliance, keeping the business transparent and well-governed.", initials: "BS" },

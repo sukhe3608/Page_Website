@@ -5,7 +5,7 @@ import { join, sep } from "node:path";
 const DIST = "dist";
 const TODAY = new Date().toISOString().slice(0, 10);
 
-let baseUrl = "https://www.novacore.example.com";
+let baseUrl = "https://www.shivaengineer.com";
 try {
   const siteModule = await import("../src/config/site.ts");
   baseUrl = siteModule.site.url;

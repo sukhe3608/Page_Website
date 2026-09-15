@@ -1,23 +1,18 @@
 export const site = {
-  name: "SLN Automation India Pvt. Ltd.",
-  shortName: "SLN Automation",
+  name: "Shiva Engineers",
+  shortName: "Shiva Engineers",
   tagline: "Innovating Smart and Safe Environments Since 2016",
   description:
-    "SLN Automation India Pvt. Ltd. delivers advanced BMS, fire protection, security, and automation solutions powered by innovative technology and expert engineering. With operations across Bangalore, Chennai, Mumbai, New Delhi, Hyderabad, and West Bengal, we provide reliable, compliant, and future-ready solutions for businesses across India and beyond.",
+    "Shiva Engineers delivers fire protection, security and automation solutions for aviation, defence, healthcare, hospitality and corporate clients across India. Based out of New Delhi, we provide certified design, supply, installation, commissioning and AMC support for reliable, compliant and future-ready systems.",
   /* TODO: replace with the real production domain before launch */
   url: "https://sukhe3608.github.io/Page_Website/",
-  email: "info@slninfosys.com",
-  phone: "+91 90364 15959",
-  salesPhone: "1800-309-0480",
-  address: "Office No. 3, 1st Floor, KMV COMPLEX, 160/217/3B, Kodigehalli – Thindlu Main Rd, near RAILWAY UNDERPASS, MUNISWAMAPPA LAYOUT, Sahakar Nagar, POST, Bengaluru, Karnataka 560092",
+  contactPerson: "Deepak Karoriya",
+  email: "info@shivaengineer.com",
+  phone: "+91 98701 25788",
+  address: "7/29, Okhla Phase III, New Delhi, Delhi – 110020",
   hours: "Mon – Sat, 9:00 – 18:00 (IST)",
   founded: 2016,
-  socials: [
-    { label: "Facebook", href: "https://www.facebook.com/slninfosys" },
-    { label: "Instagram", href: "https://www.instagram.com/infoslninfosys/" },
-    { label: "LinkedIn", href: "https://www.linkedin.com/company/sln-automation-india-private-limited/" },
-    { label: "Pinterest", href: "https://in.pinterest.com/slnautomation/" },
-  ],
+  socials: [{ label: "Website", href: "https://www.shivaengineer.com" }],
 } as const;
 
 export const nav = {

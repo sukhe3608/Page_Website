@@ -16,7 +16,7 @@ export default function Partners() {
     <PageTransition>
       <Seo
         title="Partners"
-        description="The global brands SLN Automation supplies and supports — from fire-safety leaders to 120+ authorized technology partners for security, automation and IT infrastructure."
+        description="The global brands Shiva Engineers supplies and supports — from fire-safety leaders to 120+ authorized technology partners for security, automation and IT infrastructure."
         path="/partners"
         schema={[breadcrumbSchema([{ name: "Partners" }])]}
       />

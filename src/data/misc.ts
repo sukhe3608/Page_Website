@@ -38,58 +38,13 @@ export const clients: string[] = [
 
 export const locations: LocationInfo[] = [
   {
-    city: "Bengaluru",
-    country: "India",
-    address: "Office No. 3, 1st Floor, KMV Complex, 160/217/3B, Kodigehalli – Thindlu Main Rd, Muniswamappa Layout, Sahakar Nagar, Bengaluru, Karnataka 560092",
-    phone: "+91 90364 15959",
-    email: "info@slninfosys.com",
-    hours: "Mon – Sat, 9:00 – 18:00 (IST)",
-    marker: [12.9716, 77.5946],
-  },
-  {
-    city: "Chennai",
-    country: "India",
-    address: "2nd Floor, Campus 1A, No. 143, RMZ Millenia Business Park, Dr. M.G.R Road, North Veeranam Salai, Perungudi, Sholinganallur, Chennai, Tamil Nadu 600096",
-    phone: "+91 90364 15959",
-    email: "info@slninfosys.com",
-    hours: "Mon – Sat, 9:00 – 18:00 (IST)",
-    marker: [13.0827, 80.2707],
-  },
-  {
-    city: "Mumbai",
-    country: "India",
-    address: "13th Floor, Vo-488, Wework 247 Park, Lal Bahadur Shastri Marg, Vikhroli Corporate Park, Near Gandhinagar, Mumbai, Maharashtra 400083",
-    phone: "+91 90364 15959",
-    email: "info@slninfosys.com",
-    hours: "Mon – Sat, 9:00 – 18:00 (IST)",
-    marker: [19.076, 72.8777],
-  },
-  {
     city: "New Delhi",
     country: "India",
-    address: "Ground, 1st and 2nd Floor, A-24/9, Saidabad Mohan C, Block B-1, Awfis – Mohan Cooperative, Mathura Road, New Delhi 110044",
-    phone: "+91 90364 15959",
-    email: "info@slninfosys.com",
+    address: "7/29, Okhla Phase III, New Delhi, Delhi – 110020",
+    phone: "+91 98701 25788",
+    email: "info@shivaengineer.com",
     hours: "Mon – Sat, 9:00 – 18:00 (IST)",
     marker: [28.6139, 77.209],
-  },
-  {
-    city: "Hyderabad",
-    country: "India",
-    address: "Awfis – N Heights, 6th Floor, Plot No 38, Phase 2 Hitec City, Siddiq Nagar, Hyderabad, Telangana",
-    phone: "+91 90364 15959",
-    email: "info@slninfosys.com",
-    hours: "Mon – Sat, 9:00 – 18:00 (IST)",
-    marker: [17.385, 78.4867],
-  },
-  {
-    city: "West Bengal",
-    country: "India",
-    address: "Office No. 02, Ground Floor, Khaitan No 1462, Mouza Khapril, P.O New Chamta, P.S Matigara, District Darjeeling, West Bengal 734009",
-    phone: "+91 95351 22946",
-    email: "info@slninfosys.com",
-    hours: "Mon – Sat, 9:00 – 18:00 (IST)",
-    marker: [26.7592, 88.358],
   },
 ];
 
@@ -122,7 +77,7 @@ export const processSteps: ProcessStep[] = [
 
 export const generalFaqs: Faq[] = [
   {
-    q: "How does SLN Automation engage with clients?",
+    q: "How does Shiva Engineers engage with clients?",
     a: "We work as an end-to-end partner: free site inspection, transparent proposal, professional installation and ongoing AMC support. Every engagement starts by understanding your site and requirements.",
   },
   {
@@ -131,7 +86,7 @@ export const generalFaqs: Faq[] = [
   },
   {
     q: "What is your service coverage area?",
-    a: "We provide PAN-India service with offices in Bengaluru, Chennai, Mumbai, New Delhi, Hyderabad and West Bengal — plus trusted installations for clients across India.",
+    a: "We provide PAN-India service based out of New Delhi — with trusted installations for clients across India.",
   },
   {
     q: "Do you provide annual maintenance contracts (AMC)?",

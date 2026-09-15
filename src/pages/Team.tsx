@@ -22,7 +22,7 @@ export default function Team() {
     <PageTransition>
       <Seo
         title="Team"
-        description="Meet the people behind SLN Automation India Pvt. Ltd. — certified engineers, designers and safety specialists who care about craft."
+        description="Meet the people behind Shiva Engineers — certified engineers, designers and safety specialists who care about craft."
         path="/team"
         schema={[breadcrumbSchema([{ name: "Team" }])]}
       />

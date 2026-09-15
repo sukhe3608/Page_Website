@@ -48,7 +48,7 @@ export function Footer() {
       <RevealGroup className="container-x relative grid gap-12 pb-12 pt-16 lg:grid-cols-[1.2fr_2fr]">
         <RevealItem>
           <div className="flex flex-col gap-5">
-            <Logo dark />
+            <Logo />
             <p className="max-w-sm text-[15px] leading-relaxed text-slate-400">
               {site.name} — protecting Airports, DRDO Labs, Hospitals, Hotels and Global Brands across India with
               certified fire safety, security and automation systems since 2016.
@@ -57,10 +57,6 @@ export function Footer() {
               <a href={`tel:${site.phone.replace(/\s/g, "")}`} className="flex items-center gap-2.5 transition-colors hover:text-white">
                 <Phone className="h-4 w-4 text-primary" aria-hidden="true" />
                 {site.phone}
-              </a>
-              <a href={`tel:${site.salesPhone.replace(/\s/g, "")}`} className="flex items-center gap-2.5 transition-colors hover:text-white">
-                <Phone className="h-4 w-4 text-primary" aria-hidden="true" />
-                Toll Free: {site.salesPhone}
               </a>
               <a href={`mailto:${site.email}`} className="flex items-center gap-2.5 transition-colors hover:text-white">
                 <Mail className="h-4 w-4 text-primary" aria-hidden="true" />

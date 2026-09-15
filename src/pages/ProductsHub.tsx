@@ -22,7 +22,7 @@ export default function ProductsHub() {
     <PageTransition>
       <Seo
         title="Products"
-        description="SLN Automation's product range — fire alarm, CCTV, access control, solar fencing, public address and more from authorized global brands."
+        description="Shiva Engineers' product range — fire alarm, CCTV, access control, solar fencing, public address and more from authorized global brands."
         path="/products"
         schema={[breadcrumbSchema([{ name: "Products" }])]}
       />

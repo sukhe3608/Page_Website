@@ -20,7 +20,7 @@ export default function About() {
     <PageTransition>
       <Seo
         title="About Us"
-        description="Learn about SLN Automation India Pvt. Ltd. — a certified fire safety, security and automation partner trusted by aviation, defence, healthcare and global brands since 2016."
+        description="Learn about Shiva Engineers — a certified fire safety, security and automation partner trusted by aviation, defence, healthcare and global brands since 2016."
         path="/about"
         schema={[breadcrumbSchema([{ name: "About" }])]}
       />

@@ -15,7 +15,7 @@ export default function Faq() {
     <PageTransition>
       <Seo
         title="FAQ"
-        description="Answers to common questions about SLN Automation — how we work, pricing, timelines, AMC support and more."
+        description="Answers to common questions about Shiva Engineers — how we work, pricing, timelines, AMC support and more."
         path="/faq"
         schema={[faqSchema(generalFaqs), breadcrumbSchema([{ name: "FAQ" }])]}
       />

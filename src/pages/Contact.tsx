@@ -14,7 +14,7 @@ export default function Contact() {
     <PageTransition>
       <Seo
         title="Contact"
-        description="Get in touch with SLN Automation India Pvt. Ltd. — tell us about your site and we'll reply with a free inspection and proposal."
+        description="Get in touch with Shiva Engineers — tell us about your site and we'll reply with a free inspection and proposal."
         path="/contact"
         schema={[breadcrumbSchema([{ name: "Contact" }])]}
       />

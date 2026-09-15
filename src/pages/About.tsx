@@ -1,10 +1,9 @@
-import { ArrowRight, Target, Compass, HeartHandshake, Star } from "lucide-react";
+import { Target, Compass, HeartHandshake, Star } from "lucide-react";
 import PageTransition from "@/components/animation/PageTransition";
 import Seo from "@/components/seo/Seo";
 import { breadcrumbSchema } from "@/config/schemas";
 import { site } from "@/config/site";
 import { PageHero } from "@/components/layout/PageHero";
-import { Button } from "@/components/ui/Button";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Artwork } from "@/components/common/Artwork";
 import { StatsSection } from "@/components/sections/StatsSection";
@@ -99,10 +98,6 @@ export default function About() {
         <div className="container-x flex flex-col gap-8">
           <div className="flex flex-wrap items-end justify-between gap-4">
             <SectionHeading align="left" eyebrow="The people" title={<span id="about-team-heading">Meet the leadership</span>} />
-            <Button to="/team" variant="outline">
-              View full team
-              <ArrowRight className="h-4 w-4" aria-hidden="true" />
-            </Button>
           </div>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {teamMembers.slice(0, 4).map((member) => (

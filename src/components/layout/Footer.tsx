@@ -19,8 +19,6 @@ const linkGroups = [
     title: "Company",
     links: [
       { label: "About Us", to: "/about" },
-      { label: "Our Team", to: "/team" },
-      { label: "Careers", to: "/careers" },
       { label: "Partners", to: "/partners" },
       { label: "Clients", to: "/clients" },
       { label: "Locations", to: "/locations" },

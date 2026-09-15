@@ -63,8 +63,6 @@ const entries: NavEntry[] = [
     label: "Company",
     items: [
       { to: "/about", label: "About Us", description: "Who we are and how we work" },
-      { to: "/team", label: "Our Team", description: "Leadership and specialists" },
-      { to: "/careers", label: "Careers", description: "Work with us" },
       { to: "/partners", label: "Partners", description: "Ecosystem and alliances" },
       { to: "/clients", label: "Clients", description: "Who we serve" },
       { to: "/locations", label: "Locations", description: "Where we work" },

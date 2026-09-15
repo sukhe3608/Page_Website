@@ -35,8 +35,7 @@ const PAGES = [
   "/", "/about", "/services", "/services/fire-alarm-system", "/services/cctv-camera-system",
   "/solutions", "/solutions/electronic-security-fire", "/products", "/products/cctv-surveillance",
   "/industries", "/industries/government-defence", "/case-studies", "/case-studies/kannur-airport-fire-panel",
-  "/insights", "/insights/cctv-on-rent-events-guide", "/faq", "/team", "/careers",
-  "/careers/security-system-installation-engineer", "/locations", "/partners", "/clients",
+  "/insights", "/insights/cctv-on-rent-events-guide", "/faq", "/locations", "/partners", "/clients",
   "/contact", "/get-a-quote", "/schedule-consultation", "/thank-you",
   "/privacy-policy", "/terms", "/cookie-policy", "/404",
 ];

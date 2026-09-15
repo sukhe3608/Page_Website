@@ -140,20 +140,6 @@ export interface TeamMember {
   initials: string;
 }
 
-export interface Job {
-  slug: string;
-  title: string;
-  department: string;
-  location: string;
-  type: "Full-time" | "Part-time" | "Contract" | "Remote";
-  experience: string;
-  description: string;
-  responsibilities: string[];
-  requirements: string[];
-  benefits: string[];
-  posted: string;
-}
-
 export type PostBlock =
   | { type: "p"; text: string }
   | { type: "h2"; text: string }

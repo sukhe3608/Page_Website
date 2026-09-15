@@ -84,22 +84,3 @@ export function articleSchema(post: { title: string; excerpt: string; date: stri
     mainEntityOfPage: `${site.url}/insights/${post.slug}`,
   };
 }
-
-export function jobSchema(job: {
-  title: string;
-  location: string;
-  type: string;
-  description: string;
-  slug: string;
-}) {
-  return {
-    "@context": "https://schema.org",
-    "@type": "JobPosting",
-    title: job.title,
-    description: job.description,
-    employmentType: job.type,
-    hiringOrganization: { "@type": "Organization", name: site.name, url: site.url },
-    jobLocation: { "@type": "Place", address: { "@type": "PostalAddress", addressLocality: job.location } },
-    url: `${site.url}/careers/${job.slug}`,
-  };
-}
